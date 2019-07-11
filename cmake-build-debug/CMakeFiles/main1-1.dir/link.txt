@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/main1-1.dir/ch1/Main1-1.c.o  -o main1-1 

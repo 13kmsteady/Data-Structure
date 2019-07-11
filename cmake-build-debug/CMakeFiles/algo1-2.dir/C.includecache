@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/Algo1-2.c
+stdio.h
+-
+sys/timeb.h
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/algo1-2.dir/ch1/Algo1-2.c.o  -o algo1-2 

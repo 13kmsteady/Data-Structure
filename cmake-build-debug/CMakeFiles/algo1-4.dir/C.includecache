@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/Algo1-4.c
+C1.h
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/C1.h
+
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/C1.h
+string.h
+-
+ctype.h
+-
+malloc.h
+-
+limits.h
+-
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+

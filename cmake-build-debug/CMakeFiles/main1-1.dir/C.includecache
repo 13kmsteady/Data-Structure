@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/Bo1-1.c
+C1.h
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/C1.h
+C1-1.h
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/C1-1.h
+
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/C1-1.h
+
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/C1.h
+string.h
+-
+ctype.h
+-
+malloc.h
+-
+limits.h
+-
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/Main1-1.c
+C1.h
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/C1.h
+C1-1.h
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/C1-1.h
+Bo1-1.c
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/Bo1-1.c
+
