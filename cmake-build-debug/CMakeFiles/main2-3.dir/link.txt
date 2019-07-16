@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/main2-3.dir/ch2/Main2-1.c.o  -o main2-3 

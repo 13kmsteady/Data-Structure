@@ -44,8 +44,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/main2-1.dir/DependInfo.cmake"
   "CMakeFiles/algo1-1.dir/DependInfo.cmake"
   "CMakeFiles/Data_Structure.dir/DependInfo.cmake"
+  "CMakeFiles/algo2-1.dir/DependInfo.cmake"
   "CMakeFiles/algo1-2.dir/DependInfo.cmake"
   "CMakeFiles/algo1-3.dir/DependInfo.cmake"
   "CMakeFiles/algo1-4.dir/DependInfo.cmake"

@@ -5,8 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/Algo1-1.c" "/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.o"
-  "/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Algo2-1.c" "/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.o"
   "/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Bo2-1.c" "/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.o"
+  "/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Fun2-3.c" "/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

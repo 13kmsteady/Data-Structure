@@ -17,6 +17,46 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="main2-1">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/main2-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2-1/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/main2-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="algo1-1">
 				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/algo1-1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug"/>
@@ -102,6 +142,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 Data_Structure/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-1">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/algo2-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-1/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/algo2-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-1/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -303,13 +383,19 @@
 			<Option target="main1-1"/>
 		</Unit>
 		<Unit filename="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Algo2-1.c">
-			<Option target="algo1-1"/>
+			<Option target="algo2-1"/>
 		</Unit>
 		<Unit filename="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Bo2-1.c">
 			<Option target="algo1-1"/>
 		</Unit>
 		<Unit filename="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/C2-1.h">
+			<Option target="Data_Structure"/>
+		</Unit>
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Fun2-3.c">
 			<Option target="algo1-1"/>
+		</Unit>
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Main2-1.c">
+			<Option target="main2-1"/>
 		</Unit>
 		<Unit filename="/home/steady/桌面/workspace/Data-Structure/main.c">
 			<Option target="Data_Structure"/>

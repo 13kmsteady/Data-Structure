@@ -70,22 +70,9 @@ CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/Algo1-1.c -o CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.s
 
-CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.o: CMakeFiles/algo1-1.dir/flags.make
-CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.o: ch2/Algo2-1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.o   -c /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Algo2-1.c
-
-CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Algo2-1.c > CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.i
-
-CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Algo2-1.c -o CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.s
-
 CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.o: CMakeFiles/algo1-1.dir/flags.make
 CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.o: ch2/Bo2-1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.o   -c /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Bo2-1.c
 
 CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.i: cmake_force
@@ -96,18 +83,31 @@ CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Bo2-1.c -o CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.s
 
+CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.o: CMakeFiles/algo1-1.dir/flags.make
+CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.o: ch2/Fun2-3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.o   -c /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Fun2-3.c
+
+CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Fun2-3.c > CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.i
+
+CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Fun2-3.c -o CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.s
+
 # Object files for target algo1-1
 algo1__1_OBJECTS = \
 "CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.o" \
-"CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.o" \
-"CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.o"
+"CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.o" \
+"CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.o"
 
 # External object files for target algo1-1
 algo1__1_EXTERNAL_OBJECTS =
 
 algo1-1: CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.o
-algo1-1: CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.o
 algo1-1: CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.o
+algo1-1: CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.o
 algo1-1: CMakeFiles/algo1-1.dir/build.make
 algo1-1: CMakeFiles/algo1-1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable algo1-1"

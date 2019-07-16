@@ -6,4 +6,4 @@ typedef struct {
     int length; // 当前长度
     int listsize; // 当前分配的存储容量, 以 sizeof(ElemType) 为单位
 
-} SqList;
+}SqList;

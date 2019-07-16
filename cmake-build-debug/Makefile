@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named main2-1
+
+# Build rule for target.
+main2-1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main2-1
+.PHONY : main2-1
+
+# fast build rule for target.
+main2-1/fast:
+	$(MAKE) -f CMakeFiles/main2-1.dir/build.make CMakeFiles/main2-1.dir/build
+.PHONY : main2-1/fast
+
+#=============================================================================
 # Target rules for targets named algo1-1
 
 # Build rule for target.
@@ -135,6 +148,19 @@ Data_Structure: cmake_check_build_system
 Data_Structure/fast:
 	$(MAKE) -f CMakeFiles/Data_Structure.dir/build.make CMakeFiles/Data_Structure.dir/build
 .PHONY : Data_Structure/fast
+
+#=============================================================================
+# Target rules for targets named algo2-1
+
+# Build rule for target.
+algo2-1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 algo2-1
+.PHONY : algo2-1
+
+# fast build rule for target.
+algo2-1/fast:
+	$(MAKE) -f CMakeFiles/algo2-1.dir/build.make CMakeFiles/algo2-1.dir/build
+.PHONY : algo2-1/fast
 
 #=============================================================================
 # Target rules for targets named algo1-2
@@ -356,7 +382,7 @@ ch2/Algo2-1.o: ch2/Algo2-1.c.o
 
 # target to build an object file
 ch2/Algo2-1.c.o:
-	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.o
+	$(MAKE) -f CMakeFiles/algo2-1.dir/build.make CMakeFiles/algo2-1.dir/ch2/Algo2-1.c.o
 .PHONY : ch2/Algo2-1.c.o
 
 ch2/Algo2-1.i: ch2/Algo2-1.c.i
@@ -365,7 +391,7 @@ ch2/Algo2-1.i: ch2/Algo2-1.c.i
 
 # target to preprocess a source file
 ch2/Algo2-1.c.i:
-	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.i
+	$(MAKE) -f CMakeFiles/algo2-1.dir/build.make CMakeFiles/algo2-1.dir/ch2/Algo2-1.c.i
 .PHONY : ch2/Algo2-1.c.i
 
 ch2/Algo2-1.s: ch2/Algo2-1.c.s
@@ -374,7 +400,7 @@ ch2/Algo2-1.s: ch2/Algo2-1.c.s
 
 # target to generate assembly for a file
 ch2/Algo2-1.c.s:
-	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/Algo2-1.c.s
+	$(MAKE) -f CMakeFiles/algo2-1.dir/build.make CMakeFiles/algo2-1.dir/ch2/Algo2-1.c.s
 .PHONY : ch2/Algo2-1.c.s
 
 ch2/Bo2-1.o: ch2/Bo2-1.c.o
@@ -403,6 +429,60 @@ ch2/Bo2-1.s: ch2/Bo2-1.c.s
 ch2/Bo2-1.c.s:
 	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.s
 .PHONY : ch2/Bo2-1.c.s
+
+ch2/Fun2-3.o: ch2/Fun2-3.c.o
+
+.PHONY : ch2/Fun2-3.o
+
+# target to build an object file
+ch2/Fun2-3.c.o:
+	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.o
+.PHONY : ch2/Fun2-3.c.o
+
+ch2/Fun2-3.i: ch2/Fun2-3.c.i
+
+.PHONY : ch2/Fun2-3.i
+
+# target to preprocess a source file
+ch2/Fun2-3.c.i:
+	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.i
+.PHONY : ch2/Fun2-3.c.i
+
+ch2/Fun2-3.s: ch2/Fun2-3.c.s
+
+.PHONY : ch2/Fun2-3.s
+
+# target to generate assembly for a file
+ch2/Fun2-3.c.s:
+	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.s
+.PHONY : ch2/Fun2-3.c.s
+
+ch2/Main2-1.o: ch2/Main2-1.c.o
+
+.PHONY : ch2/Main2-1.o
+
+# target to build an object file
+ch2/Main2-1.c.o:
+	$(MAKE) -f CMakeFiles/main2-1.dir/build.make CMakeFiles/main2-1.dir/ch2/Main2-1.c.o
+.PHONY : ch2/Main2-1.c.o
+
+ch2/Main2-1.i: ch2/Main2-1.c.i
+
+.PHONY : ch2/Main2-1.i
+
+# target to preprocess a source file
+ch2/Main2-1.c.i:
+	$(MAKE) -f CMakeFiles/main2-1.dir/build.make CMakeFiles/main2-1.dir/ch2/Main2-1.c.i
+.PHONY : ch2/Main2-1.c.i
+
+ch2/Main2-1.s: ch2/Main2-1.c.s
+
+.PHONY : ch2/Main2-1.s
+
+# target to generate assembly for a file
+ch2/Main2-1.c.s:
+	$(MAKE) -f CMakeFiles/main2-1.dir/build.make CMakeFiles/main2-1.dir/ch2/Main2-1.c.s
+.PHONY : ch2/Main2-1.c.s
 
 main.o: main.c.o
 
@@ -437,9 +517,11 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... main2-1"
 	@echo "... algo1-1"
 	@echo "... edit_cache"
 	@echo "... Data_Structure"
+	@echo "... algo2-1"
 	@echo "... algo1-2"
 	@echo "... algo1-3"
 	@echo "... algo1-4"
@@ -469,6 +551,12 @@ help:
 	@echo "... ch2/Bo2-1.o"
 	@echo "... ch2/Bo2-1.i"
 	@echo "... ch2/Bo2-1.s"
+	@echo "... ch2/Fun2-3.o"
+	@echo "... ch2/Fun2-3.i"
+	@echo "... ch2/Fun2-3.s"
+	@echo "... ch2/Main2-1.o"
+	@echo "... ch2/Main2-1.i"
+	@echo "... ch2/Main2-1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
