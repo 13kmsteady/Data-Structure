@@ -3,9 +3,7 @@
 
 CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.o: ch1/Algo1-1.c
 
-CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.o: ch1/C1.h
 CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.o: ch2/Bo2-1.c
-CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.o: ch2/C2-1.h
 
 CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.o: ch1/C1.h
 CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.o: ch2/Fun2-3.c

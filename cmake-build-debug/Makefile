@@ -124,6 +124,19 @@ main2-1/fast:
 .PHONY : main2-1/fast
 
 #=============================================================================
+# Target rules for targets named algo2-2
+
+# Build rule for target.
+algo2-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 algo2-2
+.PHONY : algo2-2
+
+# fast build rule for target.
+algo2-2/fast:
+	$(MAKE) -f CMakeFiles/algo2-2.dir/build.make CMakeFiles/algo2-2.dir/build
+.PHONY : algo2-2/fast
+
+#=============================================================================
 # Target rules for targets named algo1-1
 
 # Build rule for target.
@@ -403,6 +416,33 @@ ch2/Algo2-1.c.s:
 	$(MAKE) -f CMakeFiles/algo2-1.dir/build.make CMakeFiles/algo2-1.dir/ch2/Algo2-1.c.s
 .PHONY : ch2/Algo2-1.c.s
 
+ch2/Algo2-2.o: ch2/Algo2-2.c.o
+
+.PHONY : ch2/Algo2-2.o
+
+# target to build an object file
+ch2/Algo2-2.c.o:
+	$(MAKE) -f CMakeFiles/algo2-2.dir/build.make CMakeFiles/algo2-2.dir/ch2/Algo2-2.c.o
+.PHONY : ch2/Algo2-2.c.o
+
+ch2/Algo2-2.i: ch2/Algo2-2.c.i
+
+.PHONY : ch2/Algo2-2.i
+
+# target to preprocess a source file
+ch2/Algo2-2.c.i:
+	$(MAKE) -f CMakeFiles/algo2-2.dir/build.make CMakeFiles/algo2-2.dir/ch2/Algo2-2.c.i
+.PHONY : ch2/Algo2-2.c.i
+
+ch2/Algo2-2.s: ch2/Algo2-2.c.s
+
+.PHONY : ch2/Algo2-2.s
+
+# target to generate assembly for a file
+ch2/Algo2-2.c.s:
+	$(MAKE) -f CMakeFiles/algo2-2.dir/build.make CMakeFiles/algo2-2.dir/ch2/Algo2-2.c.s
+.PHONY : ch2/Algo2-2.c.s
+
 ch2/Bo2-1.o: ch2/Bo2-1.c.o
 
 .PHONY : ch2/Bo2-1.o
@@ -518,6 +558,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... main2-1"
+	@echo "... algo2-2"
 	@echo "... algo1-1"
 	@echo "... edit_cache"
 	@echo "... Data_Structure"
@@ -548,6 +589,9 @@ help:
 	@echo "... ch2/Algo2-1.o"
 	@echo "... ch2/Algo2-1.i"
 	@echo "... ch2/Algo2-1.s"
+	@echo "... ch2/Algo2-2.o"
+	@echo "... ch2/Algo2-2.i"
+	@echo "... ch2/Algo2-2.s"
 	@echo "... ch2/Bo2-1.o"
 	@echo "... ch2/Bo2-1.i"
 	@echo "... ch2/Bo2-1.s"
