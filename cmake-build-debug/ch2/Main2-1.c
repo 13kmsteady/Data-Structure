@@ -136,3 +136,33 @@ int main() {
     DestroyList(&L);
     printf("销毁 L 后, L.elem=%p, L.length=%d, L.listsize=%d\n", L.elem, L.length, L.listsize);
 }
+
+/**
+ * =========================================================
+ *
+ *  程序运行结果:
+ *
+ *  初始化 L 后, L.elem=0x55f51abbc260, L.length=0, L.listsize=10
+    在 L 的表头依次插入 1~5 之后: *L.elem = 5 4 3 2 1
+    L.elem=0x55f51abbc260, L.length=5, L.listsize=10, L 是否空: i=0(1:是 0:否)
+    清空 L 后, L.elem=0x55f51abbc260, L.length=0, L.listsize=10, L 是否空: i=1(1:是 0:否)
+    在 L 的表尾依次插入 1~10 后: *L.elem=1 2 3 4 5 6 7 8 9 10
+    L.elem=0x55f51abbc260, L.length=10, L.listsize=10, 0 1 2 3 4 5 6 7 8 9 10
+    L.elem=0x55f51abbc6a0(有可能改变), L.length=11(改变), L.listsize=12(改变)
+    第5个元素的值为: 4
+    第11个元素的值为10
+    没有值为11的元素
+    第10个元素的值为3
+    没有值为4平方的元素
+    元素0无前驱
+    元素1的前驱为0
+    元素9的后继为10
+    元素10无后继
+    删除第12个元素失败
+    删除第11个元素成功,其值为10
+    依次输出 L 的元素:0 1 2 3 4 5 6 7 8 9
+    L 的元素值加倍后
+    0 2 4 6 8 10 12 14 16 18
+    销毁 L 后, L.elem=(nil), L.length=0, L.listsize=0
+ * =========================================================
+ */

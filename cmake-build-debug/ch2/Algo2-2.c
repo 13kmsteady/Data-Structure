@@ -14,6 +14,15 @@ typedef int ElemType;
 #include "Bo2-1.c"
 #include "Fun2-3.c"
 
+/**
+ * 试数
+ *
+ *
+ *
+ * @param La
+ * @param Lb
+ * @param Lc
+ */
 void MergeList(SqList La, SqList Lb, SqList *Lc) {
     int i = 1, j = 1, k = 0;
     int La_len, Lb_len;
@@ -70,3 +79,14 @@ int main() {
     ListTraverse(Lc, print1);
     return 0;
 }
+/**
+ * =========================================================
+ *  
+ *  程序运行结果:
+ *  
+ *  La = 3 5 8 11 
+    Lb = 2 6 8 9 11 15 20 
+    Lc = 2 3 5 6 8 8 9 11 11 15 20 
+
+ * =========================================================
+ */

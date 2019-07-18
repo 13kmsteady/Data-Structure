@@ -20,4 +20,8 @@ add_executable(algo2-1 cmake-build-debug/ch2/Algo2-1.c)
 # 已知线性表 La 和 Lb 中的数据元素按值非递减排列
 # 合并 La 和 Lb 得到新的线性表 Lc. Lc 的数据元素也按值非递减排列
 add_executable(algo2-2 cmake-build-debug/ch2/Algo2-2.c)
+
+# 算法 2.7
+add_executable(alog2-3 cmake-build-debug/ch2/Algo2-3.c)
+
 add_executable(main2-1 cmake-build-debug/ch2/Main2-1.c)
