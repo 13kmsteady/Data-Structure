@@ -124,6 +124,19 @@ main2-1/fast:
 .PHONY : main2-1/fast
 
 #=============================================================================
+# Target rules for targets named alog2-4
+
+# Build rule for target.
+alog2-4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 alog2-4
+.PHONY : alog2-4
+
+# fast build rule for target.
+alog2-4/fast:
+	$(MAKE) -f CMakeFiles/alog2-4.dir/build.make CMakeFiles/alog2-4.dir/build
+.PHONY : alog2-4/fast
+
+#=============================================================================
 # Target rules for targets named alog2-3
 
 # Build rule for target.
@@ -483,6 +496,33 @@ ch2/Algo2-3.c.s:
 	$(MAKE) -f CMakeFiles/alog2-3.dir/build.make CMakeFiles/alog2-3.dir/ch2/Algo2-3.c.s
 .PHONY : ch2/Algo2-3.c.s
 
+ch2/Algo2-4.o: ch2/Algo2-4.c.o
+
+.PHONY : ch2/Algo2-4.o
+
+# target to build an object file
+ch2/Algo2-4.c.o:
+	$(MAKE) -f CMakeFiles/alog2-4.dir/build.make CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.o
+.PHONY : ch2/Algo2-4.c.o
+
+ch2/Algo2-4.i: ch2/Algo2-4.c.i
+
+.PHONY : ch2/Algo2-4.i
+
+# target to preprocess a source file
+ch2/Algo2-4.c.i:
+	$(MAKE) -f CMakeFiles/alog2-4.dir/build.make CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.i
+.PHONY : ch2/Algo2-4.c.i
+
+ch2/Algo2-4.s: ch2/Algo2-4.c.s
+
+.PHONY : ch2/Algo2-4.s
+
+# target to generate assembly for a file
+ch2/Algo2-4.c.s:
+	$(MAKE) -f CMakeFiles/alog2-4.dir/build.make CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.s
+.PHONY : ch2/Algo2-4.c.s
+
 ch2/Bo2-1.o: ch2/Bo2-1.c.o
 
 .PHONY : ch2/Bo2-1.o
@@ -598,6 +638,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... main2-1"
+	@echo "... alog2-4"
 	@echo "... alog2-3"
 	@echo "... algo2-2"
 	@echo "... algo1-1"
@@ -636,6 +677,9 @@ help:
 	@echo "... ch2/Algo2-3.o"
 	@echo "... ch2/Algo2-3.i"
 	@echo "... ch2/Algo2-3.s"
+	@echo "... ch2/Algo2-4.o"
+	@echo "... ch2/Algo2-4.i"
+	@echo "... ch2/Algo2-4.s"
 	@echo "... ch2/Bo2-1.o"
 	@echo "... ch2/Bo2-1.i"
 	@echo "... ch2/Bo2-1.s"

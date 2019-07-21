@@ -19,7 +19,7 @@ int comp(ElemType a, ElemType b) {
     if (a == b)
         return 0;
     else
-        return 1;
+        return (a - b) / abs(a - b);
 }
 
 void print(ElemType c) {

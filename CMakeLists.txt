@@ -6,7 +6,7 @@ set(CMAKE_C_STANDARD 99)
 add_executable(Data_Structure main.c cmake-build-debug/ch1/C1.h cmake-build-debug/ch2/C2-1.h
         cmake-build-debug/ch1/C1-1.h cmake-build-debug/ch1/Bo1-1.c)
 
-add_executable(algo1-1 cmake-build-debug/ch1/Algo1-1.c  cmake-build-debug/ch2/Bo2-1.c cmake-build-debug/ch2/Fun2-3.c )
+add_executable(algo1-1 cmake-build-debug/ch1/Algo1-1.c  cmake-build-debug/ch2/Bo2-1.c cmake-build-debug/ch2/Fun2-3.c)
 add_executable(algo1-2 cmake-build-debug/ch1/Algo1-2.c)
 add_executable(algo1-3 cmake-build-debug/ch1/Algo1-3.c)
 add_executable(algo1-4 cmake-build-debug/ch1/Algo1-4.c)
@@ -23,5 +23,6 @@ add_executable(algo2-2 cmake-build-debug/ch2/Algo2-2.c)
 
 # 算法 2.7
 add_executable(alog2-3 cmake-build-debug/ch2/Algo2-3.c)
+add_executable(alog2-4 cmake-build-debug/ch2/Algo2-4.c)
 
 add_executable(main2-1 cmake-build-debug/ch2/Main2-1.c)
