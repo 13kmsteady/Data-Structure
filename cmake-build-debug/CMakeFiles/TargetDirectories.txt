@@ -8,6 +8,7 @@
 /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles/algo2-1.dir
 /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles/algo1-2.dir
 /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles/algo1-3.dir
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles/main2-2.dir
 /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles/algo1-4.dir
 /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles/main1-1.dir

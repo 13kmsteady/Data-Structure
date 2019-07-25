@@ -1,15 +1,15 @@
 /**
  * =========================================================
  *
- * 算法 2.7 的另外一种实现
+ * 算法 2.7
  *
- * 修改原算法 2.7 的第一个循环语句中条件语句为 switch 语句,
- * 当 *pa = *pb 时,只将两者中之一插入 Lc
+ * 已知顺序线性表 La 和 Lb 的元素按值非递减排列
+ * 归并 La 和 Lb 得到新的顺序线性表 Lc,Lc 的元素也按值非递减排列
  *
  * =========================================================
  */
 
-#include "../ch1/C1.h"
+#include "../../ch1/C1.h"
 
 typedef int ElemType;
 
@@ -17,47 +17,35 @@ typedef int ElemType;
 #include "Bo2-1.c"
 #include "Fun2-3.c"
 
-/**
- * 另外一种合并线性表的方法
- * @param La
- * @param Lb
- * @param Lc
- */
 void MergeList(SqList La, SqList Lb, SqList *Lc) {
     ElemType *pa, *pa_last, *pb, *pb_last, *pc;
     pa = La.elem;
     pb = Lb.elem;
-    Lc->listsize = La.length + Lb.length;
-    pc = Lc->elem = (ElemType *) malloc(Lc->listsize * sizeof(ElemType));
 
-    if (!Lc->elem)
+    Lc->listsize = Lc->length = La.length + Lb.length; // 创建空表 Lc
+
+    pc = Lc->elem = (ElemType *) malloc(Lc->listsize * sizeof(ElemType));
+    if (!Lc->elem) // 存储分配失败
         exit(OVERFLOW);
+
     pa_last = La.elem + La.length - 1;
     pb_last = Lb.elem + Lb.length - 1;
 
-    // 表 La 和 表 Lb 均不为空
+    // 表 La 和 Lb 都不为空
     while (pa <= pa_last && pb <= pb_last) {
-        switch (comp(*pa, *pb)) {
-            case 0:
-                pb++;
-            case -1:
-                *pc++ = *pa++;
-                break;
-            case 1:
-                *pc++ = *pb++;
-
+        if (*pa <= *pb) {
+            *pc++=*pa++; // 将 pa 所指单元的值赋给 pc 所指单元后, pa 和 pc 分别+1(指向下一个单元)
+        } else {
+            *pc++=*pb++; // 将 pb 所指单元的值赋给 pc 所指单元后, pb 和 pc 分别+1(指向下一个单元)
         }
     }
 
-    // 表 La 非空且表 Lb 为空
-    while (pa <= pa_last)
+    // 以下两个 while 循环只有一个会被执行
+    while (pa<= pa_last) // 表 La 非空,且表 Lb 为空
         *pc++ = *pa++;
 
-    // 表 Lb 非空且表 La 为空
-    while (pb <= pb_last)
+    while (pb <= pb_last) // 表 Lb 非空,且表 La 为空
         *pc++ = *pb++;
-
-    Lc->length = pc - Lc->elem;
 }
 
 int main() {
@@ -81,16 +69,6 @@ int main() {
     MergeList(La, Lb, &Lc); // 由按非递减排列的 La,Lb 得到非递减排列的 Lc
     printf("Lc = "); // 输出表 Lc 的内容
     ListTraverse(Lc, print1);
+
+    return 0;
 }
-
-/**
- * =========================================================
- *
- *  结果:
- *
- *  La = 1 2 3 4 5
-    Lb = 2 4 6 8 10
-    Lc = 1 2 3 4 5 6 8 10
-
- * =========================================================
- */

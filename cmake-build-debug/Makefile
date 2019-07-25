@@ -228,6 +228,19 @@ algo1-3/fast:
 .PHONY : algo1-3/fast
 
 #=============================================================================
+# Target rules for targets named main2-2
+
+# Build rule for target.
+main2-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main2-2
+.PHONY : main2-2
+
+# fast build rule for target.
+main2-2/fast:
+	$(MAKE) -f CMakeFiles/main2-2.dir/build.make CMakeFiles/main2-2.dir/build
+.PHONY : main2-2/fast
+
+#=============================================================================
 # Target rules for targets named algo1-4
 
 # Build rule for target.
@@ -415,194 +428,248 @@ ch1/Main1-1.c.s:
 	$(MAKE) -f CMakeFiles/main1-1.dir/build.make CMakeFiles/main1-1.dir/ch1/Main1-1.c.s
 .PHONY : ch1/Main1-1.c.s
 
-ch2/Algo2-1.o: ch2/Algo2-1.c.o
+ch2/linear_list_linked/Bo2-2.o: ch2/linear_list_linked/Bo2-2.c.o
 
-.PHONY : ch2/Algo2-1.o
-
-# target to build an object file
-ch2/Algo2-1.c.o:
-	$(MAKE) -f CMakeFiles/algo2-1.dir/build.make CMakeFiles/algo2-1.dir/ch2/Algo2-1.c.o
-.PHONY : ch2/Algo2-1.c.o
-
-ch2/Algo2-1.i: ch2/Algo2-1.c.i
-
-.PHONY : ch2/Algo2-1.i
-
-# target to preprocess a source file
-ch2/Algo2-1.c.i:
-	$(MAKE) -f CMakeFiles/algo2-1.dir/build.make CMakeFiles/algo2-1.dir/ch2/Algo2-1.c.i
-.PHONY : ch2/Algo2-1.c.i
-
-ch2/Algo2-1.s: ch2/Algo2-1.c.s
-
-.PHONY : ch2/Algo2-1.s
-
-# target to generate assembly for a file
-ch2/Algo2-1.c.s:
-	$(MAKE) -f CMakeFiles/algo2-1.dir/build.make CMakeFiles/algo2-1.dir/ch2/Algo2-1.c.s
-.PHONY : ch2/Algo2-1.c.s
-
-ch2/Algo2-2.o: ch2/Algo2-2.c.o
-
-.PHONY : ch2/Algo2-2.o
+.PHONY : ch2/linear_list_linked/Bo2-2.o
 
 # target to build an object file
-ch2/Algo2-2.c.o:
-	$(MAKE) -f CMakeFiles/algo2-2.dir/build.make CMakeFiles/algo2-2.dir/ch2/Algo2-2.c.o
-.PHONY : ch2/Algo2-2.c.o
+ch2/linear_list_linked/Bo2-2.c.o:
+	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/linear_list_linked/Bo2-2.c.o
+.PHONY : ch2/linear_list_linked/Bo2-2.c.o
 
-ch2/Algo2-2.i: ch2/Algo2-2.c.i
+ch2/linear_list_linked/Bo2-2.i: ch2/linear_list_linked/Bo2-2.c.i
 
-.PHONY : ch2/Algo2-2.i
+.PHONY : ch2/linear_list_linked/Bo2-2.i
 
 # target to preprocess a source file
-ch2/Algo2-2.c.i:
-	$(MAKE) -f CMakeFiles/algo2-2.dir/build.make CMakeFiles/algo2-2.dir/ch2/Algo2-2.c.i
-.PHONY : ch2/Algo2-2.c.i
+ch2/linear_list_linked/Bo2-2.c.i:
+	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/linear_list_linked/Bo2-2.c.i
+.PHONY : ch2/linear_list_linked/Bo2-2.c.i
 
-ch2/Algo2-2.s: ch2/Algo2-2.c.s
+ch2/linear_list_linked/Bo2-2.s: ch2/linear_list_linked/Bo2-2.c.s
 
-.PHONY : ch2/Algo2-2.s
+.PHONY : ch2/linear_list_linked/Bo2-2.s
 
 # target to generate assembly for a file
-ch2/Algo2-2.c.s:
-	$(MAKE) -f CMakeFiles/algo2-2.dir/build.make CMakeFiles/algo2-2.dir/ch2/Algo2-2.c.s
-.PHONY : ch2/Algo2-2.c.s
+ch2/linear_list_linked/Bo2-2.c.s:
+	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/linear_list_linked/Bo2-2.c.s
+.PHONY : ch2/linear_list_linked/Bo2-2.c.s
 
-ch2/Algo2-3.o: ch2/Algo2-3.c.o
+ch2/linear_list_linked/Main2-2.o: ch2/linear_list_linked/Main2-2.c.o
 
-.PHONY : ch2/Algo2-3.o
+.PHONY : ch2/linear_list_linked/Main2-2.o
 
 # target to build an object file
-ch2/Algo2-3.c.o:
-	$(MAKE) -f CMakeFiles/alog2-3.dir/build.make CMakeFiles/alog2-3.dir/ch2/Algo2-3.c.o
-.PHONY : ch2/Algo2-3.c.o
+ch2/linear_list_linked/Main2-2.c.o:
+	$(MAKE) -f CMakeFiles/main2-2.dir/build.make CMakeFiles/main2-2.dir/ch2/linear_list_linked/Main2-2.c.o
+.PHONY : ch2/linear_list_linked/Main2-2.c.o
 
-ch2/Algo2-3.i: ch2/Algo2-3.c.i
+ch2/linear_list_linked/Main2-2.i: ch2/linear_list_linked/Main2-2.c.i
 
-.PHONY : ch2/Algo2-3.i
+.PHONY : ch2/linear_list_linked/Main2-2.i
 
 # target to preprocess a source file
-ch2/Algo2-3.c.i:
-	$(MAKE) -f CMakeFiles/alog2-3.dir/build.make CMakeFiles/alog2-3.dir/ch2/Algo2-3.c.i
-.PHONY : ch2/Algo2-3.c.i
+ch2/linear_list_linked/Main2-2.c.i:
+	$(MAKE) -f CMakeFiles/main2-2.dir/build.make CMakeFiles/main2-2.dir/ch2/linear_list_linked/Main2-2.c.i
+.PHONY : ch2/linear_list_linked/Main2-2.c.i
 
-ch2/Algo2-3.s: ch2/Algo2-3.c.s
+ch2/linear_list_linked/Main2-2.s: ch2/linear_list_linked/Main2-2.c.s
 
-.PHONY : ch2/Algo2-3.s
+.PHONY : ch2/linear_list_linked/Main2-2.s
 
 # target to generate assembly for a file
-ch2/Algo2-3.c.s:
-	$(MAKE) -f CMakeFiles/alog2-3.dir/build.make CMakeFiles/alog2-3.dir/ch2/Algo2-3.c.s
-.PHONY : ch2/Algo2-3.c.s
+ch2/linear_list_linked/Main2-2.c.s:
+	$(MAKE) -f CMakeFiles/main2-2.dir/build.make CMakeFiles/main2-2.dir/ch2/linear_list_linked/Main2-2.c.s
+.PHONY : ch2/linear_list_linked/Main2-2.c.s
 
-ch2/Algo2-4.o: ch2/Algo2-4.c.o
+ch2/linear_list_order/Algo2-1.o: ch2/linear_list_order/Algo2-1.c.o
 
-.PHONY : ch2/Algo2-4.o
+.PHONY : ch2/linear_list_order/Algo2-1.o
 
 # target to build an object file
-ch2/Algo2-4.c.o:
-	$(MAKE) -f CMakeFiles/alog2-4.dir/build.make CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.o
-.PHONY : ch2/Algo2-4.c.o
+ch2/linear_list_order/Algo2-1.c.o:
+	$(MAKE) -f CMakeFiles/algo2-1.dir/build.make CMakeFiles/algo2-1.dir/ch2/linear_list_order/Algo2-1.c.o
+.PHONY : ch2/linear_list_order/Algo2-1.c.o
 
-ch2/Algo2-4.i: ch2/Algo2-4.c.i
+ch2/linear_list_order/Algo2-1.i: ch2/linear_list_order/Algo2-1.c.i
 
-.PHONY : ch2/Algo2-4.i
+.PHONY : ch2/linear_list_order/Algo2-1.i
 
 # target to preprocess a source file
-ch2/Algo2-4.c.i:
-	$(MAKE) -f CMakeFiles/alog2-4.dir/build.make CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.i
-.PHONY : ch2/Algo2-4.c.i
+ch2/linear_list_order/Algo2-1.c.i:
+	$(MAKE) -f CMakeFiles/algo2-1.dir/build.make CMakeFiles/algo2-1.dir/ch2/linear_list_order/Algo2-1.c.i
+.PHONY : ch2/linear_list_order/Algo2-1.c.i
 
-ch2/Algo2-4.s: ch2/Algo2-4.c.s
+ch2/linear_list_order/Algo2-1.s: ch2/linear_list_order/Algo2-1.c.s
 
-.PHONY : ch2/Algo2-4.s
+.PHONY : ch2/linear_list_order/Algo2-1.s
 
 # target to generate assembly for a file
-ch2/Algo2-4.c.s:
-	$(MAKE) -f CMakeFiles/alog2-4.dir/build.make CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.s
-.PHONY : ch2/Algo2-4.c.s
+ch2/linear_list_order/Algo2-1.c.s:
+	$(MAKE) -f CMakeFiles/algo2-1.dir/build.make CMakeFiles/algo2-1.dir/ch2/linear_list_order/Algo2-1.c.s
+.PHONY : ch2/linear_list_order/Algo2-1.c.s
 
-ch2/Bo2-1.o: ch2/Bo2-1.c.o
+ch2/linear_list_order/Algo2-2.o: ch2/linear_list_order/Algo2-2.c.o
 
-.PHONY : ch2/Bo2-1.o
+.PHONY : ch2/linear_list_order/Algo2-2.o
 
 # target to build an object file
-ch2/Bo2-1.c.o:
-	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.o
-.PHONY : ch2/Bo2-1.c.o
+ch2/linear_list_order/Algo2-2.c.o:
+	$(MAKE) -f CMakeFiles/algo2-2.dir/build.make CMakeFiles/algo2-2.dir/ch2/linear_list_order/Algo2-2.c.o
+.PHONY : ch2/linear_list_order/Algo2-2.c.o
 
-ch2/Bo2-1.i: ch2/Bo2-1.c.i
+ch2/linear_list_order/Algo2-2.i: ch2/linear_list_order/Algo2-2.c.i
 
-.PHONY : ch2/Bo2-1.i
+.PHONY : ch2/linear_list_order/Algo2-2.i
 
 # target to preprocess a source file
-ch2/Bo2-1.c.i:
-	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.i
-.PHONY : ch2/Bo2-1.c.i
+ch2/linear_list_order/Algo2-2.c.i:
+	$(MAKE) -f CMakeFiles/algo2-2.dir/build.make CMakeFiles/algo2-2.dir/ch2/linear_list_order/Algo2-2.c.i
+.PHONY : ch2/linear_list_order/Algo2-2.c.i
 
-ch2/Bo2-1.s: ch2/Bo2-1.c.s
+ch2/linear_list_order/Algo2-2.s: ch2/linear_list_order/Algo2-2.c.s
 
-.PHONY : ch2/Bo2-1.s
+.PHONY : ch2/linear_list_order/Algo2-2.s
 
 # target to generate assembly for a file
-ch2/Bo2-1.c.s:
-	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/Bo2-1.c.s
-.PHONY : ch2/Bo2-1.c.s
+ch2/linear_list_order/Algo2-2.c.s:
+	$(MAKE) -f CMakeFiles/algo2-2.dir/build.make CMakeFiles/algo2-2.dir/ch2/linear_list_order/Algo2-2.c.s
+.PHONY : ch2/linear_list_order/Algo2-2.c.s
 
-ch2/Fun2-3.o: ch2/Fun2-3.c.o
+ch2/linear_list_order/Algo2-3.o: ch2/linear_list_order/Algo2-3.c.o
 
-.PHONY : ch2/Fun2-3.o
+.PHONY : ch2/linear_list_order/Algo2-3.o
 
 # target to build an object file
-ch2/Fun2-3.c.o:
-	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.o
-.PHONY : ch2/Fun2-3.c.o
+ch2/linear_list_order/Algo2-3.c.o:
+	$(MAKE) -f CMakeFiles/alog2-3.dir/build.make CMakeFiles/alog2-3.dir/ch2/linear_list_order/Algo2-3.c.o
+.PHONY : ch2/linear_list_order/Algo2-3.c.o
 
-ch2/Fun2-3.i: ch2/Fun2-3.c.i
+ch2/linear_list_order/Algo2-3.i: ch2/linear_list_order/Algo2-3.c.i
 
-.PHONY : ch2/Fun2-3.i
+.PHONY : ch2/linear_list_order/Algo2-3.i
 
 # target to preprocess a source file
-ch2/Fun2-3.c.i:
-	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.i
-.PHONY : ch2/Fun2-3.c.i
+ch2/linear_list_order/Algo2-3.c.i:
+	$(MAKE) -f CMakeFiles/alog2-3.dir/build.make CMakeFiles/alog2-3.dir/ch2/linear_list_order/Algo2-3.c.i
+.PHONY : ch2/linear_list_order/Algo2-3.c.i
 
-ch2/Fun2-3.s: ch2/Fun2-3.c.s
+ch2/linear_list_order/Algo2-3.s: ch2/linear_list_order/Algo2-3.c.s
 
-.PHONY : ch2/Fun2-3.s
+.PHONY : ch2/linear_list_order/Algo2-3.s
 
 # target to generate assembly for a file
-ch2/Fun2-3.c.s:
-	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/Fun2-3.c.s
-.PHONY : ch2/Fun2-3.c.s
+ch2/linear_list_order/Algo2-3.c.s:
+	$(MAKE) -f CMakeFiles/alog2-3.dir/build.make CMakeFiles/alog2-3.dir/ch2/linear_list_order/Algo2-3.c.s
+.PHONY : ch2/linear_list_order/Algo2-3.c.s
 
-ch2/Main2-1.o: ch2/Main2-1.c.o
+ch2/linear_list_order/Algo2-4.o: ch2/linear_list_order/Algo2-4.c.o
 
-.PHONY : ch2/Main2-1.o
+.PHONY : ch2/linear_list_order/Algo2-4.o
 
 # target to build an object file
-ch2/Main2-1.c.o:
-	$(MAKE) -f CMakeFiles/main2-1.dir/build.make CMakeFiles/main2-1.dir/ch2/Main2-1.c.o
-.PHONY : ch2/Main2-1.c.o
+ch2/linear_list_order/Algo2-4.c.o:
+	$(MAKE) -f CMakeFiles/alog2-4.dir/build.make CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.o
+.PHONY : ch2/linear_list_order/Algo2-4.c.o
 
-ch2/Main2-1.i: ch2/Main2-1.c.i
+ch2/linear_list_order/Algo2-4.i: ch2/linear_list_order/Algo2-4.c.i
 
-.PHONY : ch2/Main2-1.i
+.PHONY : ch2/linear_list_order/Algo2-4.i
 
 # target to preprocess a source file
-ch2/Main2-1.c.i:
-	$(MAKE) -f CMakeFiles/main2-1.dir/build.make CMakeFiles/main2-1.dir/ch2/Main2-1.c.i
-.PHONY : ch2/Main2-1.c.i
+ch2/linear_list_order/Algo2-4.c.i:
+	$(MAKE) -f CMakeFiles/alog2-4.dir/build.make CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.i
+.PHONY : ch2/linear_list_order/Algo2-4.c.i
 
-ch2/Main2-1.s: ch2/Main2-1.c.s
+ch2/linear_list_order/Algo2-4.s: ch2/linear_list_order/Algo2-4.c.s
 
-.PHONY : ch2/Main2-1.s
+.PHONY : ch2/linear_list_order/Algo2-4.s
 
 # target to generate assembly for a file
-ch2/Main2-1.c.s:
-	$(MAKE) -f CMakeFiles/main2-1.dir/build.make CMakeFiles/main2-1.dir/ch2/Main2-1.c.s
-.PHONY : ch2/Main2-1.c.s
+ch2/linear_list_order/Algo2-4.c.s:
+	$(MAKE) -f CMakeFiles/alog2-4.dir/build.make CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.s
+.PHONY : ch2/linear_list_order/Algo2-4.c.s
+
+ch2/linear_list_order/Bo2-1.o: ch2/linear_list_order/Bo2-1.c.o
+
+.PHONY : ch2/linear_list_order/Bo2-1.o
+
+# target to build an object file
+ch2/linear_list_order/Bo2-1.c.o:
+	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/linear_list_order/Bo2-1.c.o
+.PHONY : ch2/linear_list_order/Bo2-1.c.o
+
+ch2/linear_list_order/Bo2-1.i: ch2/linear_list_order/Bo2-1.c.i
+
+.PHONY : ch2/linear_list_order/Bo2-1.i
+
+# target to preprocess a source file
+ch2/linear_list_order/Bo2-1.c.i:
+	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/linear_list_order/Bo2-1.c.i
+.PHONY : ch2/linear_list_order/Bo2-1.c.i
+
+ch2/linear_list_order/Bo2-1.s: ch2/linear_list_order/Bo2-1.c.s
+
+.PHONY : ch2/linear_list_order/Bo2-1.s
+
+# target to generate assembly for a file
+ch2/linear_list_order/Bo2-1.c.s:
+	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/linear_list_order/Bo2-1.c.s
+.PHONY : ch2/linear_list_order/Bo2-1.c.s
+
+ch2/linear_list_order/Fun2-3.o: ch2/linear_list_order/Fun2-3.c.o
+
+.PHONY : ch2/linear_list_order/Fun2-3.o
+
+# target to build an object file
+ch2/linear_list_order/Fun2-3.c.o:
+	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/linear_list_order/Fun2-3.c.o
+.PHONY : ch2/linear_list_order/Fun2-3.c.o
+
+ch2/linear_list_order/Fun2-3.i: ch2/linear_list_order/Fun2-3.c.i
+
+.PHONY : ch2/linear_list_order/Fun2-3.i
+
+# target to preprocess a source file
+ch2/linear_list_order/Fun2-3.c.i:
+	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/linear_list_order/Fun2-3.c.i
+.PHONY : ch2/linear_list_order/Fun2-3.c.i
+
+ch2/linear_list_order/Fun2-3.s: ch2/linear_list_order/Fun2-3.c.s
+
+.PHONY : ch2/linear_list_order/Fun2-3.s
+
+# target to generate assembly for a file
+ch2/linear_list_order/Fun2-3.c.s:
+	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/ch2/linear_list_order/Fun2-3.c.s
+.PHONY : ch2/linear_list_order/Fun2-3.c.s
+
+ch2/linear_list_order/Main2-1.o: ch2/linear_list_order/Main2-1.c.o
+
+.PHONY : ch2/linear_list_order/Main2-1.o
+
+# target to build an object file
+ch2/linear_list_order/Main2-1.c.o:
+	$(MAKE) -f CMakeFiles/main2-1.dir/build.make CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.o
+.PHONY : ch2/linear_list_order/Main2-1.c.o
+
+ch2/linear_list_order/Main2-1.i: ch2/linear_list_order/Main2-1.c.i
+
+.PHONY : ch2/linear_list_order/Main2-1.i
+
+# target to preprocess a source file
+ch2/linear_list_order/Main2-1.c.i:
+	$(MAKE) -f CMakeFiles/main2-1.dir/build.make CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.i
+.PHONY : ch2/linear_list_order/Main2-1.c.i
+
+ch2/linear_list_order/Main2-1.s: ch2/linear_list_order/Main2-1.c.s
+
+.PHONY : ch2/linear_list_order/Main2-1.s
+
+# target to generate assembly for a file
+ch2/linear_list_order/Main2-1.c.s:
+	$(MAKE) -f CMakeFiles/main2-1.dir/build.make CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.s
+.PHONY : ch2/linear_list_order/Main2-1.c.s
 
 main.o: main.c.o
 
@@ -647,6 +714,7 @@ help:
 	@echo "... algo2-1"
 	@echo "... algo1-2"
 	@echo "... algo1-3"
+	@echo "... main2-2"
 	@echo "... algo1-4"
 	@echo "... rebuild_cache"
 	@echo "... main1-1"
@@ -668,27 +736,33 @@ help:
 	@echo "... ch1/Main1-1.o"
 	@echo "... ch1/Main1-1.i"
 	@echo "... ch1/Main1-1.s"
-	@echo "... ch2/Algo2-1.o"
-	@echo "... ch2/Algo2-1.i"
-	@echo "... ch2/Algo2-1.s"
-	@echo "... ch2/Algo2-2.o"
-	@echo "... ch2/Algo2-2.i"
-	@echo "... ch2/Algo2-2.s"
-	@echo "... ch2/Algo2-3.o"
-	@echo "... ch2/Algo2-3.i"
-	@echo "... ch2/Algo2-3.s"
-	@echo "... ch2/Algo2-4.o"
-	@echo "... ch2/Algo2-4.i"
-	@echo "... ch2/Algo2-4.s"
-	@echo "... ch2/Bo2-1.o"
-	@echo "... ch2/Bo2-1.i"
-	@echo "... ch2/Bo2-1.s"
-	@echo "... ch2/Fun2-3.o"
-	@echo "... ch2/Fun2-3.i"
-	@echo "... ch2/Fun2-3.s"
-	@echo "... ch2/Main2-1.o"
-	@echo "... ch2/Main2-1.i"
-	@echo "... ch2/Main2-1.s"
+	@echo "... ch2/linear_list_linked/Bo2-2.o"
+	@echo "... ch2/linear_list_linked/Bo2-2.i"
+	@echo "... ch2/linear_list_linked/Bo2-2.s"
+	@echo "... ch2/linear_list_linked/Main2-2.o"
+	@echo "... ch2/linear_list_linked/Main2-2.i"
+	@echo "... ch2/linear_list_linked/Main2-2.s"
+	@echo "... ch2/linear_list_order/Algo2-1.o"
+	@echo "... ch2/linear_list_order/Algo2-1.i"
+	@echo "... ch2/linear_list_order/Algo2-1.s"
+	@echo "... ch2/linear_list_order/Algo2-2.o"
+	@echo "... ch2/linear_list_order/Algo2-2.i"
+	@echo "... ch2/linear_list_order/Algo2-2.s"
+	@echo "... ch2/linear_list_order/Algo2-3.o"
+	@echo "... ch2/linear_list_order/Algo2-3.i"
+	@echo "... ch2/linear_list_order/Algo2-3.s"
+	@echo "... ch2/linear_list_order/Algo2-4.o"
+	@echo "... ch2/linear_list_order/Algo2-4.i"
+	@echo "... ch2/linear_list_order/Algo2-4.s"
+	@echo "... ch2/linear_list_order/Bo2-1.o"
+	@echo "... ch2/linear_list_order/Bo2-1.i"
+	@echo "... ch2/linear_list_order/Bo2-1.s"
+	@echo "... ch2/linear_list_order/Fun2-3.o"
+	@echo "... ch2/linear_list_order/Fun2-3.i"
+	@echo "... ch2/linear_list_order/Fun2-3.s"
+	@echo "... ch2/linear_list_order/Main2-1.o"
+	@echo "... ch2/linear_list_order/Main2-1.i"
+	@echo "... ch2/linear_list_order/Main2-1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

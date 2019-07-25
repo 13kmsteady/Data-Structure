@@ -57,27 +57,27 @@ include CMakeFiles/alog2-4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/alog2-4.dir/flags.make
 
-CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.o: CMakeFiles/alog2-4.dir/flags.make
-CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.o: ch2/Algo2-4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.o   -c /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Algo2-4.c
+CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.o: CMakeFiles/alog2-4.dir/flags.make
+CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.o: ch2/linear_list_order/Algo2-4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.o   -c /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/linear_list_order/Algo2-4.c
 
-CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Algo2-4.c > CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.i
+CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/linear_list_order/Algo2-4.c > CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.i
 
-CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Algo2-4.c -o CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.s
+CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/linear_list_order/Algo2-4.c -o CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.s
 
 # Object files for target alog2-4
 alog2__4_OBJECTS = \
-"CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.o"
+"CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.o"
 
 # External object files for target alog2-4
 alog2__4_EXTERNAL_OBJECTS =
 
-alog2-4: CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.o
+alog2-4: CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.o
 alog2-4: CMakeFiles/alog2-4.dir/build.make
 alog2-4: CMakeFiles/alog2-4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable alog2-4"

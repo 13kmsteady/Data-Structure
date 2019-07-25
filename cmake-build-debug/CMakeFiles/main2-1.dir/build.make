@@ -57,27 +57,27 @@ include CMakeFiles/main2-1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main2-1.dir/flags.make
 
-CMakeFiles/main2-1.dir/ch2/Main2-1.c.o: CMakeFiles/main2-1.dir/flags.make
-CMakeFiles/main2-1.dir/ch2/Main2-1.c.o: ch2/Main2-1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main2-1.dir/ch2/Main2-1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2-1.dir/ch2/Main2-1.c.o   -c /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Main2-1.c
+CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.o: CMakeFiles/main2-1.dir/flags.make
+CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.o: ch2/linear_list_order/Main2-1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.o   -c /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/linear_list_order/Main2-1.c
 
-CMakeFiles/main2-1.dir/ch2/Main2-1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main2-1.dir/ch2/Main2-1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Main2-1.c > CMakeFiles/main2-1.dir/ch2/Main2-1.c.i
+CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/linear_list_order/Main2-1.c > CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.i
 
-CMakeFiles/main2-1.dir/ch2/Main2-1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main2-1.dir/ch2/Main2-1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Main2-1.c -o CMakeFiles/main2-1.dir/ch2/Main2-1.c.s
+CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/linear_list_order/Main2-1.c -o CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.s
 
 # Object files for target main2-1
 main2__1_OBJECTS = \
-"CMakeFiles/main2-1.dir/ch2/Main2-1.c.o"
+"CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.o"
 
 # External object files for target main2-1
 main2__1_EXTERNAL_OBJECTS =
 
-main2-1: CMakeFiles/main2-1.dir/ch2/Main2-1.c.o
+main2-1: CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.o
 main2-1: CMakeFiles/main2-1.dir/build.make
 main2-1: CMakeFiles/main2-1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable main2-1"

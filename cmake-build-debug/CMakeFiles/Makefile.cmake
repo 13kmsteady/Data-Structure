@@ -53,6 +53,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/algo2-1.dir/DependInfo.cmake"
   "CMakeFiles/algo1-2.dir/DependInfo.cmake"
   "CMakeFiles/algo1-3.dir/DependInfo.cmake"
+  "CMakeFiles/main2-2.dir/DependInfo.cmake"
   "CMakeFiles/algo1-4.dir/DependInfo.cmake"
   "CMakeFiles/main1-1.dir/DependInfo.cmake"
   )

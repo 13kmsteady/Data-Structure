@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/alog2-4.dir/ch2/Algo2-4.c.o"
+  "CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.o"
   "alog2-4.pdb"
   "alog2-4"
 )

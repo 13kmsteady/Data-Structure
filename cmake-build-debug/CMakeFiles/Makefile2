@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/steady/桌面/workspace/Data-Structure/cmake-build-debu
 CMakeFiles/main2-1.dir/all:
 	$(MAKE) -f CMakeFiles/main2-1.dir/build.make CMakeFiles/main2-1.dir/depend
 	$(MAKE) -f CMakeFiles/main2-1.dir/build.make CMakeFiles/main2-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target main2-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target main2-1"
 .PHONY : CMakeFiles/main2-1.dir/all
 
 # Include target in all.
@@ -108,7 +108,7 @@ clean: CMakeFiles/main2-1.dir/clean
 CMakeFiles/alog2-4.dir/all:
 	$(MAKE) -f CMakeFiles/alog2-4.dir/build.make CMakeFiles/alog2-4.dir/depend
 	$(MAKE) -f CMakeFiles/alog2-4.dir/build.make CMakeFiles/alog2-4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target alog2-4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target alog2-4"
 .PHONY : CMakeFiles/alog2-4.dir/all
 
 # Include target in all.
@@ -145,7 +145,7 @@ clean: CMakeFiles/alog2-4.dir/clean
 CMakeFiles/alog2-3.dir/all:
 	$(MAKE) -f CMakeFiles/alog2-3.dir/build.make CMakeFiles/alog2-3.dir/depend
 	$(MAKE) -f CMakeFiles/alog2-3.dir/build.make CMakeFiles/alog2-3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target alog2-3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target alog2-3"
 .PHONY : CMakeFiles/alog2-3.dir/all
 
 # Include target in all.
@@ -182,7 +182,7 @@ clean: CMakeFiles/alog2-3.dir/clean
 CMakeFiles/algo2-2.dir/all:
 	$(MAKE) -f CMakeFiles/algo2-2.dir/build.make CMakeFiles/algo2-2.dir/depend
 	$(MAKE) -f CMakeFiles/algo2-2.dir/build.make CMakeFiles/algo2-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target algo2-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target algo2-2"
 .PHONY : CMakeFiles/algo2-2.dir/all
 
 # Include target in all.
@@ -219,7 +219,7 @@ clean: CMakeFiles/algo2-2.dir/clean
 CMakeFiles/algo1-1.dir/all:
 	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/depend
 	$(MAKE) -f CMakeFiles/algo1-1.dir/build.make CMakeFiles/algo1-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=4,5,6,7 "Built target algo1-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=4,5,6,7,8 "Built target algo1-1"
 .PHONY : CMakeFiles/algo1-1.dir/all
 
 # Include target in all.
@@ -229,7 +229,7 @@ all: CMakeFiles/algo1-1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/algo1-1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/algo1-1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/algo1-1.dir/rule
@@ -293,7 +293,7 @@ clean: CMakeFiles/Data_Structure.dir/clean
 CMakeFiles/algo2-1.dir/all:
 	$(MAKE) -f CMakeFiles/algo2-1.dir/build.make CMakeFiles/algo2-1.dir/depend
 	$(MAKE) -f CMakeFiles/algo2-1.dir/build.make CMakeFiles/algo2-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target algo2-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target algo2-1"
 .PHONY : CMakeFiles/algo2-1.dir/all
 
 # Include target in all.
@@ -330,7 +330,7 @@ clean: CMakeFiles/algo2-1.dir/clean
 CMakeFiles/algo1-2.dir/all:
 	$(MAKE) -f CMakeFiles/algo1-2.dir/build.make CMakeFiles/algo1-2.dir/depend
 	$(MAKE) -f CMakeFiles/algo1-2.dir/build.make CMakeFiles/algo1-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target algo1-2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target algo1-2"
 .PHONY : CMakeFiles/algo1-2.dir/all
 
 # Include target in all.
@@ -367,7 +367,7 @@ clean: CMakeFiles/algo1-2.dir/clean
 CMakeFiles/algo1-3.dir/all:
 	$(MAKE) -f CMakeFiles/algo1-3.dir/build.make CMakeFiles/algo1-3.dir/depend
 	$(MAKE) -f CMakeFiles/algo1-3.dir/build.make CMakeFiles/algo1-3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target algo1-3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target algo1-3"
 .PHONY : CMakeFiles/algo1-3.dir/all
 
 # Include target in all.
@@ -398,13 +398,50 @@ clean: CMakeFiles/algo1-3.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/main2-2.dir
+
+# All Build rule for target.
+CMakeFiles/main2-2.dir/all:
+	$(MAKE) -f CMakeFiles/main2-2.dir/build.make CMakeFiles/main2-2.dir/depend
+	$(MAKE) -f CMakeFiles/main2-2.dir/build.make CMakeFiles/main2-2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target main2-2"
+.PHONY : CMakeFiles/main2-2.dir/all
+
+# Include target in all.
+all: CMakeFiles/main2-2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main2-2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main2-2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/main2-2.dir/rule
+
+# Convenience name for target.
+main2-2: CMakeFiles/main2-2.dir/rule
+
+.PHONY : main2-2
+
+# clean rule for target.
+CMakeFiles/main2-2.dir/clean:
+	$(MAKE) -f CMakeFiles/main2-2.dir/build.make CMakeFiles/main2-2.dir/clean
+.PHONY : CMakeFiles/main2-2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/main2-2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/algo1-4.dir
 
 # All Build rule for target.
 CMakeFiles/algo1-4.dir/all:
 	$(MAKE) -f CMakeFiles/algo1-4.dir/build.make CMakeFiles/algo1-4.dir/depend
 	$(MAKE) -f CMakeFiles/algo1-4.dir/build.make CMakeFiles/algo1-4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target algo1-4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target algo1-4"
 .PHONY : CMakeFiles/algo1-4.dir/all
 
 # Include target in all.
@@ -441,7 +478,7 @@ clean: CMakeFiles/algo1-4.dir/clean
 CMakeFiles/main1-1.dir/all:
 	$(MAKE) -f CMakeFiles/main1-1.dir/build.make CMakeFiles/main1-1.dir/depend
 	$(MAKE) -f CMakeFiles/main1-1.dir/build.make CMakeFiles/main1-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target main1-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target main1-1"
 .PHONY : CMakeFiles/main1-1.dir/all
 
 # Include target in all.

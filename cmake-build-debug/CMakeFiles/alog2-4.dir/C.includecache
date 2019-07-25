@@ -22,23 +22,23 @@ stdlib.h
 math.h
 -
 
-/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Algo2-4.c
-../ch1/C1.h
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/linear_list_order/Algo2-4.c
+../../ch1/C1.h
 /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/C1.h
 C2-1.h
-/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/C2-1.h
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/linear_list_order/C2-1.h
 Bo2-1.c
-/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Bo2-1.c
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/linear_list_order/Bo2-1.c
 Fun2-3.c
-/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Fun2-3.c
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/linear_list_order/Fun2-3.c
 
-/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Bo2-1.c
-../ch1/C1.h
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/linear_list_order/Bo2-1.c
+../../ch1/C1.h
 /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/C1.h
 
-/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/C2-1.h
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/linear_list_order/C2-1.h
 
-/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/Fun2-3.c
-../ch1/C1.h
+/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch2/linear_list_order/Fun2-3.c
+../../ch1/C1.h
 /home/steady/桌面/workspace/Data-Structure/cmake-build-debug/ch1/C1.h
 

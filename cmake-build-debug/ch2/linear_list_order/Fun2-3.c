@@ -6,7 +6,7 @@
  * =========================================================
  */
 
-#include "../ch1/C1.h"
+#include "../../ch1/C1.h"
 
 Status equal(ElemType e1, ElemType e2) {
     if (e1 == e2)

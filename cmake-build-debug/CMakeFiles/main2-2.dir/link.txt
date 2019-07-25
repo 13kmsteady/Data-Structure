@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/main2-2.dir/ch2/linear_list_linked/Main2-2.c.o  -o main2-2 

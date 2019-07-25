@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/main2-1.dir/ch2/Main2-1.c.o  -o main2-1 
+/usr/bin/cc -g   CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.o  -o main2-1 
