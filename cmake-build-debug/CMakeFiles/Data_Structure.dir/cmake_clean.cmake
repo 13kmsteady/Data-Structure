@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Data_Structure.dir/main.c.o"
-  "CMakeFiles/Data_Structure.dir/ch1/Bo1-1.c.o"
+  "CMakeFiles/Data_Structure.dir/main.c.obj"
+  "CMakeFiles/Data_Structure.dir/ch1/Bo1-1.c.obj"
   "Data_Structure.pdb"
-  "Data_Structure"
+  "Data_Structure.exe"
+  "Data_Structure.exe.manifest"
+  "libData_Structure.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

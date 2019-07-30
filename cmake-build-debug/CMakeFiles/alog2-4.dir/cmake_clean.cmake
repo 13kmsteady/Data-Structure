@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.o"
+  "CMakeFiles/alog2-4.dir/ch2/linear_list_order/Algo2-4.c.obj"
   "alog2-4.pdb"
-  "alog2-4"
+  "alog2-4.exe"
+  "alog2-4.exe.manifest"
+  "libalog2-4.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
