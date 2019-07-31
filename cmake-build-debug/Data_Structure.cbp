@@ -485,6 +485,78 @@
 					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="algo2-12">
+				<Option output="E:/qingmei/Data-Structure/cmake-build-debug/algo2-12.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/qingmei/Data-Structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-12"/>
+					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-12/fast">
+				<Option output="E:/qingmei/Data-Structure/cmake-build-debug/algo2-12.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/qingmei/Data-Structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-12/fast"/>
+					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-13">
+				<Option output="E:/qingmei/Data-Structure/cmake-build-debug/algo2-13.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/qingmei/Data-Structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-13"/>
+					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-13/fast">
+				<Option output="E:/qingmei/Data-Structure/cmake-build-debug/algo2-13.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/qingmei/Data-Structure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-13/fast"/>
+					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/qingmei/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/qingmei/Data-Structure/cmake-build-debug"/>
 				<Option type="4"/>
@@ -529,6 +601,12 @@
 		</Unit>
 		<Unit filename="E:/qingmei/Data-Structure/cmake-build-debug/ch1/Main1-1.c">
 			<Option target="main1-1"/>
+		</Unit>
+		<Unit filename="E:/qingmei/Data-Structure/cmake-build-debug/ch2/linear_list_linked/Algo2-12.c">
+			<Option target="algo2-12"/>
+		</Unit>
+		<Unit filename="E:/qingmei/Data-Structure/cmake-build-debug/ch2/linear_list_linked/Algo2-13.c">
+			<Option target="algo2-13"/>
 		</Unit>
 		<Unit filename="E:/qingmei/Data-Structure/cmake-build-debug/ch2/linear_list_linked/Algo2-5.c">
 			<Option target="algo2-5"/>

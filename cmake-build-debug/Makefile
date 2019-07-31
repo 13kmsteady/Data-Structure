@@ -278,6 +278,32 @@ algo2-5/fast:
 	$(MAKE) -f CMakeFiles\algo2-5.dir\build.make CMakeFiles/algo2-5.dir/build
 .PHONY : algo2-5/fast
 
+#=============================================================================
+# Target rules for targets named algo2-12
+
+# Build rule for target.
+algo2-12: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 algo2-12
+.PHONY : algo2-12
+
+# fast build rule for target.
+algo2-12/fast:
+	$(MAKE) -f CMakeFiles\algo2-12.dir\build.make CMakeFiles/algo2-12.dir/build
+.PHONY : algo2-12/fast
+
+#=============================================================================
+# Target rules for targets named algo2-13
+
+# Build rule for target.
+algo2-13: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 algo2-13
+.PHONY : algo2-13
+
+# fast build rule for target.
+algo2-13/fast:
+	$(MAKE) -f CMakeFiles\algo2-13.dir\build.make CMakeFiles/algo2-13.dir/build
+.PHONY : algo2-13/fast
+
 ch1/Algo1-1.obj: ch1/Algo1-1.c.obj
 
 .PHONY : ch1/Algo1-1.obj
@@ -439,6 +465,60 @@ ch1/Main1-1.s: ch1/Main1-1.c.s
 ch1/Main1-1.c.s:
 	$(MAKE) -f CMakeFiles\main1-1.dir\build.make CMakeFiles/main1-1.dir/ch1/Main1-1.c.s
 .PHONY : ch1/Main1-1.c.s
+
+ch2/linear_list_linked/Algo2-12.obj: ch2/linear_list_linked/Algo2-12.c.obj
+
+.PHONY : ch2/linear_list_linked/Algo2-12.obj
+
+# target to build an object file
+ch2/linear_list_linked/Algo2-12.c.obj:
+	$(MAKE) -f CMakeFiles\algo2-12.dir\build.make CMakeFiles/algo2-12.dir/ch2/linear_list_linked/Algo2-12.c.obj
+.PHONY : ch2/linear_list_linked/Algo2-12.c.obj
+
+ch2/linear_list_linked/Algo2-12.i: ch2/linear_list_linked/Algo2-12.c.i
+
+.PHONY : ch2/linear_list_linked/Algo2-12.i
+
+# target to preprocess a source file
+ch2/linear_list_linked/Algo2-12.c.i:
+	$(MAKE) -f CMakeFiles\algo2-12.dir\build.make CMakeFiles/algo2-12.dir/ch2/linear_list_linked/Algo2-12.c.i
+.PHONY : ch2/linear_list_linked/Algo2-12.c.i
+
+ch2/linear_list_linked/Algo2-12.s: ch2/linear_list_linked/Algo2-12.c.s
+
+.PHONY : ch2/linear_list_linked/Algo2-12.s
+
+# target to generate assembly for a file
+ch2/linear_list_linked/Algo2-12.c.s:
+	$(MAKE) -f CMakeFiles\algo2-12.dir\build.make CMakeFiles/algo2-12.dir/ch2/linear_list_linked/Algo2-12.c.s
+.PHONY : ch2/linear_list_linked/Algo2-12.c.s
+
+ch2/linear_list_linked/Algo2-13.obj: ch2/linear_list_linked/Algo2-13.c.obj
+
+.PHONY : ch2/linear_list_linked/Algo2-13.obj
+
+# target to build an object file
+ch2/linear_list_linked/Algo2-13.c.obj:
+	$(MAKE) -f CMakeFiles\algo2-13.dir\build.make CMakeFiles/algo2-13.dir/ch2/linear_list_linked/Algo2-13.c.obj
+.PHONY : ch2/linear_list_linked/Algo2-13.c.obj
+
+ch2/linear_list_linked/Algo2-13.i: ch2/linear_list_linked/Algo2-13.c.i
+
+.PHONY : ch2/linear_list_linked/Algo2-13.i
+
+# target to preprocess a source file
+ch2/linear_list_linked/Algo2-13.c.i:
+	$(MAKE) -f CMakeFiles\algo2-13.dir\build.make CMakeFiles/algo2-13.dir/ch2/linear_list_linked/Algo2-13.c.i
+.PHONY : ch2/linear_list_linked/Algo2-13.c.i
+
+ch2/linear_list_linked/Algo2-13.s: ch2/linear_list_linked/Algo2-13.c.s
+
+.PHONY : ch2/linear_list_linked/Algo2-13.s
+
+# target to generate assembly for a file
+ch2/linear_list_linked/Algo2-13.c.s:
+	$(MAKE) -f CMakeFiles\algo2-13.dir\build.make CMakeFiles/algo2-13.dir/ch2/linear_list_linked/Algo2-13.c.s
+.PHONY : ch2/linear_list_linked/Algo2-13.c.s
 
 ch2/linear_list_linked/Algo2-5.obj: ch2/linear_list_linked/Algo2-5.c.obj
 
@@ -756,6 +836,8 @@ help:
 	@echo ... main2-1
 	@echo ... main2-2
 	@echo ... algo2-5
+	@echo ... algo2-12
+	@echo ... algo2-13
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ch1/Algo1-1.obj
@@ -776,6 +858,12 @@ help:
 	@echo ... ch1/Main1-1.obj
 	@echo ... ch1/Main1-1.i
 	@echo ... ch1/Main1-1.s
+	@echo ... ch2/linear_list_linked/Algo2-12.obj
+	@echo ... ch2/linear_list_linked/Algo2-12.i
+	@echo ... ch2/linear_list_linked/Algo2-12.s
+	@echo ... ch2/linear_list_linked/Algo2-13.obj
+	@echo ... ch2/linear_list_linked/Algo2-13.i
+	@echo ... ch2/linear_list_linked/Algo2-13.s
 	@echo ... ch2/linear_list_linked/Algo2-5.obj
 	@echo ... ch2/linear_list_linked/Algo2-5.i
 	@echo ... ch2/linear_list_linked/Algo2-5.s

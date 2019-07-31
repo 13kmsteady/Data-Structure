@@ -34,3 +34,5 @@ add_executable(main2-1 cmake-build-debug/ch2/linear_list_order/Main2-1.c)
 # 链式线性表  =================================================
 add_executable(main2-2 cmake-build-debug/ch2/linear_list_linked/Main2-2.c)
 add_executable(algo2-5 cmake-build-debug/ch2/linear_list_linked/Algo2-5.c)
+add_executable(algo2-12 cmake-build-debug/ch2/linear_list_linked/Algo2-12.c)
+add_executable(algo2-13 cmake-build-debug/ch2/linear_list_linked/Algo2-13.c)

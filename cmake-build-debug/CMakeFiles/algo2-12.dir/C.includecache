@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/qingmei/Data-Structure/cmake-build-debug/ch1/C1.h
+string.h
+-
+ctype.h
+-
+malloc.h
+-
+limits.h
+-
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+
+E:/qingmei/Data-Structure/cmake-build-debug/ch2/linear_list_linked/Algo2-12.c
+../../ch1/C1.h
+E:/qingmei/Data-Structure/cmake-build-debug/ch1/C1.h
+C2-2.h
+E:/qingmei/Data-Structure/cmake-build-debug/ch2/linear_list_linked/C2-2.h
+Bo2-2.c
+E:/qingmei/Data-Structure/cmake-build-debug/ch2/linear_list_linked/Bo2-2.c
+../linear_list_order/Fun2-3.c
+E:/qingmei/Data-Structure/cmake-build-debug/ch2/linear_list_order/Fun2-3.c
+
+E:/qingmei/Data-Structure/cmake-build-debug/ch2/linear_list_linked/Bo2-2.c
+../../ch1/C1.h
+E:/qingmei/Data-Structure/cmake-build-debug/ch1/C1.h
+stdlib.h
+-
+
+E:/qingmei/Data-Structure/cmake-build-debug/ch2/linear_list_linked/C2-2.h
+
+E:/qingmei/Data-Structure/cmake-build-debug/ch2/linear_list_order/Fun2-3.c
+../../ch1/C1.h
+E:/qingmei/Data-Structure/cmake-build-debug/ch1/C1.h
+

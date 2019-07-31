@@ -72,8 +72,8 @@ void CreateList2(LinkList *L, int n) {
  * 归并 La 和 Lb 得到新的单链线性表 Lc，Lc 的元素也按值非递减排列
  *
  */
-void MergeList(LinkList La, LinkList Lb, LinkList *Lc) {
-    LinkList pa = La->next, pb = Lb->next, pc;
+void MergeList(LinkList La, LinkList *Lb, LinkList *Lc) {
+    LinkList pa = La->next, pb = (*Lb)->next, pc;
     *Lc = pc = La; // 用 La 的头结点作为 Lc 的头结点
     while (pa && pb) {
         if (pa->data <= pb->data) {
@@ -87,7 +87,8 @@ void MergeList(LinkList La, LinkList Lb, LinkList *Lc) {
         }
     }
     pc->next = pa ? pa : pb;
-    free(Lb);
+    free(*Lb);
+    Lb = NULL;
 }
 
 int main() {
@@ -102,7 +103,7 @@ int main() {
     CreateList(&Lb, n);
     printf("Lb = ");
     ListTraverse(Lb, print);
-    MergeList(La, Lb, &Lc);
+    MergeList(La, &Lb, &Lc);
     printf("Lc = ");
     ListTraverse(Lc, print);
     return 0;
