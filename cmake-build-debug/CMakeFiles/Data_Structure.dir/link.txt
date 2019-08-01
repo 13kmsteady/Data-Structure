@@ -1,3 +1,0 @@
-"D:\develop\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Data_Structure.dir/objects.a
-D:\develop\mingw\mingw32\bin\ar.exe cr CMakeFiles\Data_Structure.dir/objects.a @CMakeFiles\Data_Structure.dir\objects1.rsp
-D:\develop\mingw\mingw32\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Data_Structure.dir/objects.a -Wl,--no-whole-archive  -o Data_Structure.exe -Wl,--out-implib,libData_Structure.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Data_Structure.dir\linklibs.rsp

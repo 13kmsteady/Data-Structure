@@ -57,17 +57,17 @@ include CMakeFiles/main2-1.dir/progress.make
 include CMakeFiles/main2-1.dir/flags.make
 
 CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.obj: CMakeFiles/main2-1.dir/flags.make
-CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.obj: ch2/linear_list_order/Main2-1.c
+CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.obj: ../ch2/linear_list_order/Main2-1.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\qingmei\Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.obj"
-	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\main2-1.dir\ch2\linear_list_order\Main2-1.c.obj   -c E:\qingmei\Data-Structure\cmake-build-debug\ch2\linear_list_order\Main2-1.c
+	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\main2-1.dir\ch2\linear_list_order\Main2-1.c.obj   -c E:\qingmei\Data-Structure\ch2\linear_list_order\Main2-1.c
 
 CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.i"
-	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\qingmei\Data-Structure\cmake-build-debug\ch2\linear_list_order\Main2-1.c > CMakeFiles\main2-1.dir\ch2\linear_list_order\Main2-1.c.i
+	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\qingmei\Data-Structure\ch2\linear_list_order\Main2-1.c > CMakeFiles\main2-1.dir\ch2\linear_list_order\Main2-1.c.i
 
 CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main2-1.dir/ch2/linear_list_order/Main2-1.c.s"
-	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\qingmei\Data-Structure\cmake-build-debug\ch2\linear_list_order\Main2-1.c -o CMakeFiles\main2-1.dir\ch2\linear_list_order\Main2-1.c.s
+	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\qingmei\Data-Structure\ch2\linear_list_order\Main2-1.c -o CMakeFiles\main2-1.dir\ch2\linear_list_order\Main2-1.c.s
 
 # Object files for target main2-1
 main2__1_OBJECTS = \

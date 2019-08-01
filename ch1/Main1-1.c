@@ -1,7 +1,7 @@
 /**
  * =========================================================
  *
- * 检验基本操作 bo1-1.c 的主函数
+ * 检验基本操作 Bo1-1.c 的主函数
  *
  * =========================================================
  */
@@ -12,9 +12,10 @@ typedef int ElemType; // 定义抽象数据类型 ElemType 在本程序中为整
 
 #include "C1-1.h" // 在此命令之前要定义 ElemType 的类型
 #include "Bo1-1.c" // 在此命令之前要包含 c1-1.h 文件(因为其中定义了 Triplet)
+#include <windows.h>
 
 int main() {
-
+    system("chcp 65001 > nul");
     Triplet T;
     ElemType M;
     Status i;

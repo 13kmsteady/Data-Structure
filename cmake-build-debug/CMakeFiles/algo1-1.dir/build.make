@@ -57,76 +57,31 @@ include CMakeFiles/algo1-1.dir/progress.make
 include CMakeFiles/algo1-1.dir/flags.make
 
 CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.obj: CMakeFiles/algo1-1.dir/flags.make
-CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.obj: ch1/Algo1-1.c
+CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.obj: ../ch1/Algo1-1.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\qingmei\Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.obj"
-	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algo1-1.dir\ch1\Algo1-1.c.obj   -c E:\qingmei\Data-Structure\cmake-build-debug\ch1\Algo1-1.c
+	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algo1-1.dir\ch1\Algo1-1.c.obj   -c E:\qingmei\Data-Structure\ch1\Algo1-1.c
 
 CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.i"
-	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\qingmei\Data-Structure\cmake-build-debug\ch1\Algo1-1.c > CMakeFiles\algo1-1.dir\ch1\Algo1-1.c.i
+	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\qingmei\Data-Structure\ch1\Algo1-1.c > CMakeFiles\algo1-1.dir\ch1\Algo1-1.c.i
 
 CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.s"
-	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\qingmei\Data-Structure\cmake-build-debug\ch1\Algo1-1.c -o CMakeFiles\algo1-1.dir\ch1\Algo1-1.c.s
-
-CMakeFiles/algo1-1.dir/ch2/linear_list_order/Bo2-1.c.obj: CMakeFiles/algo1-1.dir/flags.make
-CMakeFiles/algo1-1.dir/ch2/linear_list_order/Bo2-1.c.obj: ch2/linear_list_order/Bo2-1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\qingmei\Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/algo1-1.dir/ch2/linear_list_order/Bo2-1.c.obj"
-	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algo1-1.dir\ch2\linear_list_order\Bo2-1.c.obj   -c E:\qingmei\Data-Structure\cmake-build-debug\ch2\linear_list_order\Bo2-1.c
-
-CMakeFiles/algo1-1.dir/ch2/linear_list_order/Bo2-1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algo1-1.dir/ch2/linear_list_order/Bo2-1.c.i"
-	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\qingmei\Data-Structure\cmake-build-debug\ch2\linear_list_order\Bo2-1.c > CMakeFiles\algo1-1.dir\ch2\linear_list_order\Bo2-1.c.i
-
-CMakeFiles/algo1-1.dir/ch2/linear_list_order/Bo2-1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algo1-1.dir/ch2/linear_list_order/Bo2-1.c.s"
-	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\qingmei\Data-Structure\cmake-build-debug\ch2\linear_list_order\Bo2-1.c -o CMakeFiles\algo1-1.dir\ch2\linear_list_order\Bo2-1.c.s
-
-CMakeFiles/algo1-1.dir/ch2/linear_list_order/Fun2-3.c.obj: CMakeFiles/algo1-1.dir/flags.make
-CMakeFiles/algo1-1.dir/ch2/linear_list_order/Fun2-3.c.obj: ch2/linear_list_order/Fun2-3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\qingmei\Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/algo1-1.dir/ch2/linear_list_order/Fun2-3.c.obj"
-	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algo1-1.dir\ch2\linear_list_order\Fun2-3.c.obj   -c E:\qingmei\Data-Structure\cmake-build-debug\ch2\linear_list_order\Fun2-3.c
-
-CMakeFiles/algo1-1.dir/ch2/linear_list_order/Fun2-3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algo1-1.dir/ch2/linear_list_order/Fun2-3.c.i"
-	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\qingmei\Data-Structure\cmake-build-debug\ch2\linear_list_order\Fun2-3.c > CMakeFiles\algo1-1.dir\ch2\linear_list_order\Fun2-3.c.i
-
-CMakeFiles/algo1-1.dir/ch2/linear_list_order/Fun2-3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algo1-1.dir/ch2/linear_list_order/Fun2-3.c.s"
-	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\qingmei\Data-Structure\cmake-build-debug\ch2\linear_list_order\Fun2-3.c -o CMakeFiles\algo1-1.dir\ch2\linear_list_order\Fun2-3.c.s
-
-CMakeFiles/algo1-1.dir/ch2/linear_list_linked/Bo2-2.c.obj: CMakeFiles/algo1-1.dir/flags.make
-CMakeFiles/algo1-1.dir/ch2/linear_list_linked/Bo2-2.c.obj: ch2/linear_list_linked/Bo2-2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\qingmei\Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/algo1-1.dir/ch2/linear_list_linked/Bo2-2.c.obj"
-	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algo1-1.dir\ch2\linear_list_linked\Bo2-2.c.obj   -c E:\qingmei\Data-Structure\cmake-build-debug\ch2\linear_list_linked\Bo2-2.c
-
-CMakeFiles/algo1-1.dir/ch2/linear_list_linked/Bo2-2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algo1-1.dir/ch2/linear_list_linked/Bo2-2.c.i"
-	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\qingmei\Data-Structure\cmake-build-debug\ch2\linear_list_linked\Bo2-2.c > CMakeFiles\algo1-1.dir\ch2\linear_list_linked\Bo2-2.c.i
-
-CMakeFiles/algo1-1.dir/ch2/linear_list_linked/Bo2-2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algo1-1.dir/ch2/linear_list_linked/Bo2-2.c.s"
-	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\qingmei\Data-Structure\cmake-build-debug\ch2\linear_list_linked\Bo2-2.c -o CMakeFiles\algo1-1.dir\ch2\linear_list_linked\Bo2-2.c.s
+	D:\develop\mingw\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\qingmei\Data-Structure\ch1\Algo1-1.c -o CMakeFiles\algo1-1.dir\ch1\Algo1-1.c.s
 
 # Object files for target algo1-1
 algo1__1_OBJECTS = \
-"CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.obj" \
-"CMakeFiles/algo1-1.dir/ch2/linear_list_order/Bo2-1.c.obj" \
-"CMakeFiles/algo1-1.dir/ch2/linear_list_order/Fun2-3.c.obj" \
-"CMakeFiles/algo1-1.dir/ch2/linear_list_linked/Bo2-2.c.obj"
+"CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.obj"
 
 # External object files for target algo1-1
 algo1__1_EXTERNAL_OBJECTS =
 
 algo1-1.exe: CMakeFiles/algo1-1.dir/ch1/Algo1-1.c.obj
-algo1-1.exe: CMakeFiles/algo1-1.dir/ch2/linear_list_order/Bo2-1.c.obj
-algo1-1.exe: CMakeFiles/algo1-1.dir/ch2/linear_list_order/Fun2-3.c.obj
-algo1-1.exe: CMakeFiles/algo1-1.dir/ch2/linear_list_linked/Bo2-2.c.obj
 algo1-1.exe: CMakeFiles/algo1-1.dir/build.make
 algo1-1.exe: CMakeFiles/algo1-1.dir/linklibs.rsp
 algo1-1.exe: CMakeFiles/algo1-1.dir/objects1.rsp
 algo1-1.exe: CMakeFiles/algo1-1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\qingmei\Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable algo1-1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\qingmei\Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable algo1-1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\algo1-1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
