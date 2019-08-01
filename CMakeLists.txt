@@ -18,7 +18,8 @@ add_executable(algo2-3 ch2/linear_list_order/Algo2-3.c)
 add_executable(algo2-4 ch2/linear_list_order/Algo2-4.c)
 
 # 链式线性表
-add_executable(main2-2 ch2/linear_list_linked/Main2-2.c)
-add_executable(algo2-5 ch2/linear_list_linked/Algo2-5.c)
-add_executable(algo2-12 ch2/linear_list_linked/Algo2-12.c)
-add_executable(algo2-13 ch2/linear_list_linked/Algo2-13.c)
+add_executable(main2-2 ch2/linear_list_linked/head_node/Main2-2.c)
+add_executable(main2-8 ch2/linear_list_linked/no_head_node/Main2-8.c)
+add_executable(algo2-5 ch2/linear_list_linked/head_node/Algo2-5.c)
+add_executable(algo2-12 ch2/linear_list_linked/head_node/Algo2-12.c)
+add_executable(algo2-13 ch2/linear_list_linked/head_node/Algo2-13.c)

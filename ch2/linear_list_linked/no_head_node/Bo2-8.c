@@ -1,14 +1,16 @@
 /**
  * =================================================
  * 
- * 不带头结点的单链表
+ * 不带头结点的单链表(存储结构由 C2-2.h 定义)
  * 
  * ==================================================
  */
 
-#include "../../ch1/C1.h"
-#include "C2-2.h"
+#include "../../../ch1/C1.h"
+#include "../head_node/C2-2.h"
 #include <stdlib.h>
+
+#define DestroyList ClearList
 
 /**
  * 构造一个空的线性表
@@ -94,8 +96,8 @@ Status GetElem(LinkList L, int i, ElemType *e) {
 int LocateElem(LinkList L, ElemType e, Status(*compare)(ElemType, ElemType)) {
     LinkList p = L;
     int j = 1;
-    while(p){
-        if(compare(p->data,e)){
+    while (p) {
+        if (compare(p->data, e)) {
             return j;
         }
         p = p->next;
@@ -112,28 +114,22 @@ int LocateElem(LinkList L, ElemType e, Status(*compare)(ElemType, ElemType)) {
  * @return
  */
 Status ListInsert(LinkList *L, int i, ElemType e) {
-    LinkList p = *L, s;
+    LinkList s, p = *L;
     int j = 1;
-
-    if (i < 1)
-        return ERROR; // 插入位置不合理
-    s = (LinkList) malloc(sizeof(struct LNode));
-    s->data = e;
-
-    if (i == 1) {
+    if (1 == i) {
+        s = (LinkList) malloc(sizeof(struct LNode));
+        s->data = e;
         s->next = *L;
         *L = s;
     } else {
-        // 找到 i-1 个结点
         while (p && j < i - 1) {
             p = p->next;
             j++;
         }
-
-        if (!p) {
+        if (!p || j > i - 1)
             return ERROR;
-        }
-
+        s = (LinkList) malloc(sizeof(struct LNode));
+        s->data = e;
         s->next = p->next;
         p->next = s;
     }
@@ -148,25 +144,27 @@ Status ListInsert(LinkList *L, int i, ElemType e) {
  * @return
  */
 Status ListDelete(LinkList *L, int i, ElemType *e) {
-    LinkList p = *L,q;
+    LinkList p = *L, q;
     int j = 1;
-    if (i == 1) {
+    if (1 == i) {
         *L = p->next;
         *e = p->data;
         free(p);
     } else {
-        while (p->next && j < i-1) {
+
+        while (p->next && j < i - 1) {
             p = p->next;
             j++;
         }
-        if(!p->next || j > i-1)
+
+        if (!p->next || j > i - 1) {
             return ERROR;
+        }
         q = p->next;
         p->next = q->next;
-        *e = q->data;
         free(q);
     }
-    return ERROR;
+    return OK;
 }
 
 /**
@@ -176,9 +174,8 @@ Status ListDelete(LinkList *L, int i, ElemType *e) {
  * @param vi
  */
 void ListTraverse(LinkList L, void(*vi)(ElemType)) {
-
     LinkList p = L;
-    while (p){
+    while (p) {
         vi(p->data);
         p = p->next;
     }

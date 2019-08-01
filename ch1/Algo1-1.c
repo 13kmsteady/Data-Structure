@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <sys/timeb.h>
-#include <windows.h>
 int main() {
-    system("chcp 65001 > nul");
     struct timeb t1, t2;
     long t;
     double x, sum = 1, sum1;

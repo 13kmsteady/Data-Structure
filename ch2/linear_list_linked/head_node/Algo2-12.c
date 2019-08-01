@@ -6,13 +6,13 @@
  * 将所有在线性表 Lb 中,但不在 La 中的数据元素插入到 La 中
  * =========================================================
  */
-#include "../../ch1/C1.h"
+#include "../../../ch1/C1.h"
 
 typedef int ElemType;
 
 #include "C2-2.h"
 #include "Bo2-2.c"
-#include "../linear_list_order/Fun2-3.c"
+#include "../../linear_list_order/Fun2-3.c"
 
 /**
  * 用链表实现算法 2.1

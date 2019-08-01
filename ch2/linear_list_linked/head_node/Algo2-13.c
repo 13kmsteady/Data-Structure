@@ -9,13 +9,13 @@
  */
 
 
-#include "../../ch1/C1.h"
+#include "../../../ch1/C1.h"
 
 typedef int ElemType;
 
 #include "C2-2.h"
 #include "Bo2-2.c"
-#include "../linear_list_order/Fun2-3.c"
+#include "../../linear_list_order/Fun2-3.c"
 
 /**
  * 已知线性表 La 和 Lb 中的数元素按值非递减排列

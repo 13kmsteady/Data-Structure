@@ -6,14 +6,13 @@
  * ==================================================
  */
 
-#include "../../ch1/C1.h"
+#include "../../../ch1/C1.h"
 
 typedef int ElemType;
 
 #include "C2-2.h"
 #include "Bo2-2.c"
-#include "../linear_list_order/Fun2-3.c"
-#include <windows.h>
+#include "../../linear_list_order/Fun2-3.c"
 
 /**
  * 算法 2.11
@@ -92,7 +91,6 @@ void MergeList(LinkList La, LinkList *Lb, LinkList *Lc) {
 }
 
 int main() {
-    system("chcp 65001 > nul");
     int n = 5;
     LinkList La, Lb, Lc;
     printf("按非递减顺序, ");
