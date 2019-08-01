@@ -1,3 +1,0 @@
-"D:\develop\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\algo1-4.dir/objects.a
-D:\develop\mingw\mingw32\bin\ar.exe cr CMakeFiles\algo1-4.dir/objects.a @CMakeFiles\algo1-4.dir\objects1.rsp
-D:\develop\mingw\mingw32\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\algo1-4.dir/objects.a -Wl,--no-whole-archive  -o algo1-4.exe -Wl,--out-implib,libalgo1-4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\algo1-4.dir\linklibs.rsp

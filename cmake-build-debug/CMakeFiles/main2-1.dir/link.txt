@@ -1,3 +1,0 @@
-"D:\develop\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\main2-1.dir/objects.a
-D:\develop\mingw\mingw32\bin\ar.exe cr CMakeFiles\main2-1.dir/objects.a @CMakeFiles\main2-1.dir\objects1.rsp
-D:\develop\mingw\mingw32\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\main2-1.dir/objects.a -Wl,--no-whole-archive  -o main2-1.exe -Wl,--out-implib,libmain2-1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\main2-1.dir\linklibs.rsp
