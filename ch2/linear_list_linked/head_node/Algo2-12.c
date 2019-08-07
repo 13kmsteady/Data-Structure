@@ -12,7 +12,7 @@ typedef int ElemType;
 
 #include "C2-2.h"
 #include "Bo2-2.c"
-#include "../../linear_list_order/Fun2-3.c"
+#include "../../fun/Fun2-3.c"
 
 /**
  * 用链表实现算法 2.1

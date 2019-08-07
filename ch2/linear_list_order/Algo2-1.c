@@ -11,7 +11,7 @@ typedef int ElemType;
 
 #include "C2-1.h" // 采用线性表的动态分配顺序存储结构
 #include "Bo2-1.c"
-#include "Fun2-3.c"
+#include "../fun/Fun2-3.c"
 
 /**
  * 算法 2.1

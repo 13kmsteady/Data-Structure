@@ -12,7 +12,7 @@ typedef int ElemType;
 
 #include "C2-1.h"
 #include "Bo2-1.c"
-#include "Fun2-3.c"
+#include "../fun/Fun2-3.c"
 
 /**
  * 数据元素判定函数(平方关系), LocateElem() 调用的函数

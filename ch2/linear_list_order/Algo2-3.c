@@ -15,7 +15,7 @@ typedef int ElemType;
 
 #include "C2-1.h"
 #include "Bo2-1.c"
-#include "Fun2-3.c"
+#include "../fun/Fun2-3.c"
 
 void MergeList(SqList La, SqList Lb, SqList *Lc) {
     ElemType *pa, *pa_last, *pb, *pb_last, *pc;

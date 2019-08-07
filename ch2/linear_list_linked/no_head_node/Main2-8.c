@@ -10,7 +10,7 @@ typedef int ElemType;
 
 #include "Bo2-8.c"
 #include "Bo2-9.c"
-#include "../../linear_list_order/Fun2-3.c"
+#include "../../fun/Fun2-3.c"
 
 int main() {
 

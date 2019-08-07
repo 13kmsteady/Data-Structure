@@ -15,7 +15,7 @@ typedef int ElemType;
 
 #include "C2-1.h"
 #include "Bo2-1.c"
-#include "Fun2-3.c"
+#include "../fun/Fun2-3.c"
 
 /**
  * 另外一种合并线性表的方法
