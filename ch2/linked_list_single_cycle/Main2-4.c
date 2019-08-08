@@ -10,7 +10,7 @@
 
 typedef int ElemType;
 
-#include "../linear_list_linked/head_node/C2-2.h"
+#include "../linked_list_single/head_node/C2-2.h"
 #include "Bo2-4.c"
 #include "../fun/Fun2-3.c"
 
