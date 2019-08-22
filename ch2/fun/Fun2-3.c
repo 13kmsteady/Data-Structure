@@ -19,7 +19,7 @@ int comp(ElemType a, ElemType b) {
     if (a == b)
         return 0;
     else
-        return (a - b) / abs(a - b);
+        return (a - b) / abs(a - b); // abs 函数是求绝对值的
 }
 
 void print(ElemType c) {

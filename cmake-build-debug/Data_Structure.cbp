@@ -8,778 +8,897 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/workspace/Data-Structure/cmake-build-debug"/>
+				<Option working_dir="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Data_Structure">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/Data_Structure.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 Data_Structure"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Data_Structure/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/Data_Structure.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 Data_Structure/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-2">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-2"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-2/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-2/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main2-8">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-8.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-8"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main2-8/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-8.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-8/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo1-1">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-1"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo1-1/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-1/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-1">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-1"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-1/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-1/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo1-2">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-2"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo1-2/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-2/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main1-1">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main1-1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main1-1"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main1-1/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main1-1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main1-1/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo1-3">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-3"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo1-3/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-3/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo1-4">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-4"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo1-4/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-4/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main2-1">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-1"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main2-1/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-1/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="E:/workspace/Data-Structure/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-3">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-3"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-3/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-3/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-4">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-4"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-4/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-4/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main2-2">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-2"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main2-2/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-2/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main2-4">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-4"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main2-4/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-4/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main2-5">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-5.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-5"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main2-5/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-5.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-5/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-10">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-10.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-10"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-10/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-10.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-10/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-5">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-5.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-5"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-5/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-5.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-5/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-12">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-12.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-12"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-12/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-12.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-12/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-13">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-13.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-13"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="algo2-13/fast">
-				<Option output="E:/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-13.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="cmake-build-debug/outpus"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/develop/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-13/fast"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/workspace/Data-Structure/cmake-build-debug"/>
+				<Option working_dir="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/develop/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-13">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-13"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-13/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-13/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-10">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-10"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-10/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-10/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-5">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-5/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2-4">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2-4/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo1-4">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo1-4/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2-2">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2-2/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo1-3">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo1-3/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo1-2">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo1-2/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-1">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-1/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Data_Structure">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/Data_Structure" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 Data_Structure"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Data_Structure/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/Data_Structure" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 Data_Structure/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2-5">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2-5/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-3">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-3/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2-6">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-6"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2-6/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-6/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo1-1">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo1-1/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo1-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo1-1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-2">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-2/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main1-1">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main1-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main1-1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main1-1/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main1-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main1-1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2-1">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2-1/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-12">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-12"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-12/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-12/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-4">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algo2-4/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 algo2-4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2-8">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-8"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2-8/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main2-8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2-8/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/workspace/Data-Structure/ch1/Algo1-1.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch1/Algo1-1.c">
 			<Option target="algo1-1"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch1/Algo1-2.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch1/Algo1-2.c">
 			<Option target="algo1-2"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch1/Algo1-3.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch1/Algo1-3.c">
 			<Option target="algo1-3"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch1/Algo1-4.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch1/Algo1-4.c">
 			<Option target="algo1-4"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch1/Main1-1.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch1/Main1-1.c">
 			<Option target="main1-1"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch2/linear_list_order/Algo2-1.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch2/linear_list_order/Algo2-1.c">
 			<Option target="algo2-1"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch2/linear_list_order/Algo2-2.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch2/linear_list_order/Algo2-2.c">
 			<Option target="algo2-2"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch2/linear_list_order/Algo2-3.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch2/linear_list_order/Algo2-3.c">
 			<Option target="algo2-3"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch2/linear_list_order/Algo2-4.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch2/linear_list_order/Algo2-4.c">
 			<Option target="algo2-4"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch2/linear_list_order/Main2-1.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch2/linear_list_order/Main2-1.c">
 			<Option target="main2-1"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch2/linked_list_double/Main2-5.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch2/linked_list_double/Main2-5.c">
 			<Option target="main2-5"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch2/linked_list_single/head_node/Algo2-12.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch2/linked_list_practical/Main2-6.c">
+			<Option target="main2-6"/>
+		</Unit>
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch2/linked_list_single/head_node/Algo2-12.c">
 			<Option target="algo2-12"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch2/linked_list_single/head_node/Algo2-13.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch2/linked_list_single/head_node/Algo2-13.c">
 			<Option target="algo2-13"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch2/linked_list_single/head_node/Algo2-5.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch2/linked_list_single/head_node/Algo2-5.c">
 			<Option target="algo2-5"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch2/linked_list_single/head_node/Main2-2.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch2/linked_list_single/head_node/Main2-2.c">
 			<Option target="main2-2"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch2/linked_list_single/no_head_node/Main2-8.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch2/linked_list_single/no_head_node/Main2-8.c">
 			<Option target="main2-8"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch2/linked_list_single_cycle/Algo2-10.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch2/linked_list_single_cycle/Algo2-10.c">
 			<Option target="algo2-10"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/ch2/linked_list_single_cycle/Main2-4.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch2/linked_list_single_cycle/Main2-4.c">
 			<Option target="main2-4"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/main.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/main.c">
 			<Option target="Data_Structure"/>
 		</Unit>
-		<Unit filename="E:/workspace/Data-Structure/CMakeLists.txt">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
