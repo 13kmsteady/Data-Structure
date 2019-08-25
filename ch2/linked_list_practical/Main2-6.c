@@ -89,7 +89,7 @@ int main() {
     k = ListLength(L);
     for (j = k - 1; j <= k; j++) {
         LocatePos(L, j, &p); // p 指向 L 的第 j 个结点
-        h = NextPos(L, p); // h 指向 p 的后继
+        h = NextPos(p); // h 指向 p 的后继
         if (h) {
             printf("%d 的后继是 %d\n", p->data, h->data);
         } else {

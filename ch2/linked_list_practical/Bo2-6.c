@@ -94,6 +94,7 @@ Status ListEmpty(LinkList L) {
 
 
 /**
+ * 已知 h 指向线性链表的头结点, 将 s 所指结点插入在第一个结点之前
  *
  * 当 h 为 (*L)->head 时, 只会移动一次尾指针
  * 当 h 为 (*L)->tail 时, 每次都会移动尾指针
@@ -192,11 +193,9 @@ Position LocateElem(LinkList L, ElemType e, Status (*compare)(ElemType, ElemType
  * @param q
  */
 Status DelFirst(LinkList *L, Link h, Link *q) {
-
     *q = h->next; // q 指向第一个结点
     if (*q) {
         h->next = (*q)->next;
-
         if (*q == (*L).tail) {
             L->tail = h;
         }
@@ -257,7 +256,7 @@ Position PriorPos(LinkList L, Link p) {
  * @param p
  * @return
  */
-Position NextPos(LinkList L, Link p) {
+Position NextPos(Link p) {
     return p->next;
 }
 
@@ -394,6 +393,7 @@ void DestroyList(LinkList *L) {
     free(L->head);
     L->head = NULL;
     L->tail = NULL;
+    L->len = 0;
 }
 
 /**
