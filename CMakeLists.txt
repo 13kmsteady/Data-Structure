@@ -28,3 +28,6 @@ add_executable(algo2-10 ch2/linked_list_single_cycle/Algo2-10.c)
 add_executable(algo2-11 ch2/linked_list_practical/Algo2-11.c)
 add_executable(algo2-12 ch2/linked_list_single/head_node/Algo2-12.c)
 add_executable(algo2-13 ch2/linked_list_single/head_node/Algo2-13.c)
+
+# 栈
+add_executable(main3-1 ch3/Main3-1.c)
