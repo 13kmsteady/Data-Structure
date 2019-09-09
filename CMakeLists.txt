@@ -30,4 +30,5 @@ add_executable(algo2-12 ch2/linked_list_single/head_node/Algo2-12.c)
 add_executable(algo2-13 ch2/linked_list_single/head_node/Algo2-13.c)
 
 # 栈
-add_executable(main3-1 ch3/Main3-1.c)
+add_executable(main3-1 ch3/sequence_stack/Main3-1.c)
+add_executable(main3-5 ch3/linked_stack/Main3-5.c)

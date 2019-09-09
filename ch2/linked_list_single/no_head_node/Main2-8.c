@@ -76,7 +76,6 @@ int main() {
     ListTraverse(L, print);
     DestroyList(&L);
     printf("销毁 L 后, L=%p\n", L);
-
     return 0;
 }
 
