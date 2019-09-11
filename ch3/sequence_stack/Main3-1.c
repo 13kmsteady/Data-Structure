@@ -30,7 +30,7 @@ int main() {
     printf("栈中元素依次为: ");
     StackTraverse(s,print);
 
-    pop(&s, &e);
+    Pop(&s, &e);
     printf("弹出的栈顶元素 e = %d\n", e);
 
     printf("栈是否为空: %d(1: 空,0: 否)\n", StackEmpty(s));

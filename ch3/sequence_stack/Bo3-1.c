@@ -115,7 +115,7 @@ Status Push(SqStack *S, SElemType e) {
  * @param e
  * @return
  */
-Status pop(SqStack *S, SElemType *e) {
+Status Pop(SqStack *S, SElemType *e) {
     if (S->base == S->top) {
         return ERROR;
     }
