@@ -38,7 +38,7 @@ void DestroyQueue(LinkQueue *Q) {
  *
  * @param Q
  */
-void clearQueue(LinkQueue *Q) {
+void ClearQueue(LinkQueue *Q) {
 
     QueuePtr q, p = Q->front->next;
     while (p) {

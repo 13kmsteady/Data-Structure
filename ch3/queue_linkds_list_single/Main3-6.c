@@ -1,9 +1,7 @@
 /**
  * =========================================================
  *  
- * 检验 Bo3-2.c 的主程序
- *
- * 队列: 在队尾插入元素,在队头删除元素
+ * 检验 Bo3-6.c 的程序
  *
  * =========================================================
  */
@@ -12,15 +10,16 @@
 
 typedef int QElemType;
 
-#include "C3-3.h"
-#include "Bo3-2.c"
+#include "../queue/C3-3.h"
+#include "Bo3-6.c"
 
 void print(QElemType i) {
 
     printf("%d ", i);
 }
 
-int main() {
+int main(){
+
 
     int i;
     QElemType d;
@@ -30,9 +29,9 @@ int main() {
     printf("队列是否为空: %d(1:空, 0:否)\n", QueueEmpty(q));
     printf("队列长度: %d\n", QueueLength(q));
 
-    EndQueue(&q, -5);
-    EndQueue(&q, 5);
-    EndQueue(&q, 10);
+    EnQueue(&q, -5);
+    EnQueue(&q, 5);
+    EnQueue(&q, 10);
 
     printf("插入 3 个元素(-5,5,10)后,队列长度: %d\n", QueueLength(q));
     printf("队列是否为空: %d(1:空, 0:否)\n", QueueEmpty(q));
@@ -40,14 +39,14 @@ int main() {
     printf("队列元素依次为: ");
     QueueTraverse(q, print);
 
-    i = GetHead(q, &d);
+    i = GetHead_Q(q, &d);
     if (i == OK)
         printf("队头元素是: %d\n", d);
 
     DeQueue(&q, &d);
     printf("删除了头元素 %d\n", d);
 
-    i = GetHead(q, &d);
+    i = GetHead_Q(q, &d);
     if (i == OK)
         printf("队头元素是: %d\n", d);
 

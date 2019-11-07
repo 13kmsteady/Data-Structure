@@ -58,9 +58,9 @@ void clearList(LinkList L) {
  * @return
  */
 Status ListEmpty(LinkList L) {
-    if (L->next)
+    if (L->next) {
         return FALSE;
-    else
+    } else
         return TRUE;
 }
 

@@ -35,7 +35,7 @@ add_executable(main3-5 ch3/linked_stack/Main3-5.c)
 
 # 队列
 add_executable(main3-2 ch3/queue/Main3-2.c)
-
+add_executable(main3-6 ch3/queue_linkds_list_single/Main3-6.c)
 add_executable(algo3-1 ch3/algo/Algo3-1.c)
 add_executable(algo3-3 ch3/algo/Algo3-3.c)
 add_executable(algo3-4 ch3/algo/Algo3-4.c)
