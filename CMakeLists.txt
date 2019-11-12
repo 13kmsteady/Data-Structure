@@ -30,12 +30,13 @@ add_executable(algo2-12 ch2/linked_list_single/head_node/Algo2-12.c)
 add_executable(algo2-13 ch2/linked_list_single/head_node/Algo2-13.c)
 
 # 栈
-add_executable(main3-1 ch3/sequence_stack/Main3-1.c)
-add_executable(main3-5 ch3/linked_stack/Main3-5.c)
+add_executable(main3-1 ch3/stack_sequence/Main3-1.c)
+add_executable(main3-5 ch3/stack_linked/Main3-5.c)
 
 # 队列
 add_executable(main3-2 ch3/queue/Main3-2.c)
 add_executable(main3-6 ch3/queue_linkds_list_single/Main3-6.c)
+add_executable(main3-7 ch3/queue_sequence/Main3-7.c)
 add_executable(algo3-1 ch3/algo/Algo3-1.c)
 add_executable(algo3-3 ch3/algo/Algo3-3.c)
 add_executable(algo3-4 ch3/algo/Algo3-4.c)

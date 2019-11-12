@@ -557,6 +557,46 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="main3-7">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main3-7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main3-7"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main3-7/fast">
+				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/main3-7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="cmake-build-debug/outpus"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 main3-7/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="algo2-1">
 				<Option output="/home/steady/桌面/workspace/Data-Structure/cmake-build-debug/cmake-build-debug/outpus/algo2-1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="cmake-build-debug/outpus"/>
@@ -1270,16 +1310,19 @@
 		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch3/algo/Algo3-4.c">
 			<Option target="algo3-4"/>
 		</Unit>
-		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch3/linked_stack/Main3-5.c">
-			<Option target="main3-5"/>
-		</Unit>
 		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch3/queue/Main3-2.c">
 			<Option target="main3-2"/>
 		</Unit>
 		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch3/queue_linkds_list_single/Main3-6.c">
 			<Option target="main3-6"/>
 		</Unit>
-		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch3/sequence_stack/Main3-1.c">
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch3/queue_sequence/Main3-7.c">
+			<Option target="main3-7"/>
+		</Unit>
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch3/stack_linked/Main3-5.c">
+			<Option target="main3-5"/>
+		</Unit>
+		<Unit filename="/home/steady/桌面/workspace/Data-Structure/ch3/stack_sequence/Main3-1.c">
 			<Option target="main3-1"/>
 		</Unit>
 		<Unit filename="/home/steady/桌面/workspace/Data-Structure/main.c">
