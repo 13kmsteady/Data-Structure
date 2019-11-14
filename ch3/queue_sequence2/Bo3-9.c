@@ -10,7 +10,7 @@
  * 构造一个空队列
  * @param Q
  */
-void InitQueue(SqQueue1 *Q) {
+void InitQueue(SqQueue2 *Q) {
 
 }
 
@@ -18,7 +18,7 @@ void InitQueue(SqQueue1 *Q) {
  * 销毁一个队列
  * @param Q
  */
-void DestroyQueue(SqQueue1 *Q) {
+void DestroyQueue(SqQueue2 *Q) {
 
 }
 
@@ -26,7 +26,7 @@ void DestroyQueue(SqQueue1 *Q) {
  * 清空队列
  * @param Q
  */
-void ClearQueue(SqQueue1 *Q) {
+void ClearQueue(SqQueue2 *Q) {
 
 }
 
@@ -35,7 +35,7 @@ void ClearQueue(SqQueue1 *Q) {
  * @param Q
  * @return
  */
-Status QueueEmpty(SqQueue1 Q) {
+Status QueueEmpty(SqQueue2 Q) {
 
 }
 
@@ -45,7 +45,7 @@ Status QueueEmpty(SqQueue1 Q) {
  * @param Q
  * @return
  */
-int QueueLength(SqQueue1 Q) {
+int QueueLength(SqQueue2 Q) {
 
 }
 
@@ -54,7 +54,7 @@ int QueueLength(SqQueue1 Q) {
  * @param Q
  * @return
  */
-Status GetHead(SqQueue1 Q, QElemType *e) {
+Status GetHead(SqQueue2 Q, QElemType *e) {
 
 }
 
@@ -63,7 +63,7 @@ Status GetHead(SqQueue1 Q, QElemType *e) {
  * @param Q
  * @param e
  */
-void EnQueue(SqQueue1 *Q, QElemType e) {
+void EnQueue(SqQueue2 *Q, QElemType e) {
 
 }
 
@@ -73,14 +73,14 @@ void EnQueue(SqQueue1 *Q, QElemType e) {
  * @param Q
  * @param e
  */
-void DeQueue(SqQueue1 *Q, QElemType *e) {
+void DeQueue(SqQueue2 *Q, QElemType *e) {
 
 }
 
 /**
  * 从队头到队尾,依次对队列 Q 中的每个元素调用函数 vi
  */
-void QueueTraverse(SqQueue1 Q, void(*vi)(QElemType)) {
+void QueueTraverse(SqQueue2 Q, void(*vi)(QElemType)) {
 
 }
 
